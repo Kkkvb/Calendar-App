@@ -3,4 +3,10 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="title_e_g_linear_algebra">Title (e.g., Linear Algebra)</string>
+    <string name="location_optional">Location (optional)</string>
+    <string name="reminder_minutes_before_e_g_10">Reminder minutes before (e.g., 10)</string>
+    <string name="add_course">Add course</string>
 </resources>

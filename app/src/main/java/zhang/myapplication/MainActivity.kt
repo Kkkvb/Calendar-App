@@ -6,6 +6,8 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
+import android.view.Menu
+import android.view.MenuItem
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -15,6 +17,10 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import zhang.myapplication.databinding.ActivityMainBinding
+import android.app.TimePickerDialog
+import android.widget.ArrayAdapter
+import android.widget.Toast
+import zhang.myapplication.databinding.DialogAddCourseBinding
 import zhang.myapplication.BuildConfig
 
 import kotlinx.coroutines.launch
@@ -74,7 +80,7 @@ class MainActivity : AppCompatActivity() {
 
 
         // DEBUG-ONLY seed to see a reminder soon
-        if (BuildConfig.DEBUG) {
+        /* if (BuildConfig.DEBUG) {
             lifecycleScope.launch {
                 val now = ZonedDateTime.now()
                 val start = now.toLocalTime().plusMinutes(3).withSecond(0).withNano(0)
@@ -97,7 +103,124 @@ class MainActivity : AppCompatActivity() {
                 scheduler.cancel(saved)     // avoid duplicates on repeated runs
                 scheduler.scheduleNext(saved)
             }
+        } */
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_actions, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_add_course -> {
+                showAddCourseDialog()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
         }
     }
+
+    private fun showAddCourseDialog() {
+        val app = application as ScheduleApp
+        val dao = app.db.courseDao()
+        val scheduler = ReminderScheduler(this, app.alarmManager)
+
+        val binding = DialogAddCourseBinding.inflate(layoutInflater)
+
+        // Day spinner
+        val days = resources.getStringArray(R.array.days_of_week).toList()
+        binding.spDay.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, days)
+
+        var startTime: LocalTime? = null
+        var endTime: LocalTime? = null
+
+        binding.btnStartTime.setOnClickListener {
+            val now = LocalTime.now()
+            TimePickerDialog(this, { _, h, m ->
+                startTime = LocalTime.of(h, m)
+                binding.btnStartTime.text = "Start: %02d:%02d".format(h, m)
+            }, now.hour, now.minute, true).show()
+        }
+        binding.btnEndTime.setOnClickListener {
+            val now = LocalTime.now().plusMinutes(50)
+            TimePickerDialog(this, { _, h, m ->
+                endTime = LocalTime.of(h, m)
+                binding.btnEndTime.text = "End: %02d:%02d".format(h, m)
+            }, now.hour, now.minute, true).show()
+        }
+
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle("Add course")
+            .setView(binding.root)
+            .setNegativeButton("Cancel", null)
+
+            .setPositiveButton("Save") { _, _ ->
+                val title = binding.etTitle.text.toString().trim()
+                val location = binding.etLocation.text.toString().trim().ifBlank { null }
+                val reminderMin = binding.etReminder.text.toString().toIntOrNull() ?: 10
+
+                val dayIdx = binding.spDay.selectedItemPosition // 0=Mon … 6=Sun
+                val dayOfWeek = java.time.DayOfWeek.of(((dayIdx + 1 - 1) % 7) + 1)
+
+                // Make them non-null locals with guard clauses
+                val st = startTime ?: run {
+                    android.widget.Toast.makeText(this, "Pick a start time", android.widget.Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+                val et = endTime ?: run {
+                    android.widget.Toast.makeText(this, "Pick an end time", android.widget.Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+
+                if (title.isBlank()) {
+                    android.widget.Toast.makeText(this, "Please enter a title", android.widget.Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+                if (!et.isAfter(st)) {
+                    android.widget.Toast.makeText(this, "End time must be after start time", android.widget.Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+
+                val semesterStart = java.time.LocalDate.now()
+                    .with(java.time.temporal.TemporalAdjusters.previousOrSame(java.time.DayOfWeek.MONDAY))
+
+                lifecycleScope.launch {
+                    val course = zhang.myapplication.data.Course(
+                        title = title,
+                        location = location,
+                        dayOfWeek = dayOfWeek,
+                        startTime = st,   // now LocalTime, not LocalTime?
+                        endTime = et,     // now LocalTime, not LocalTime?
+                        semesterStart = semesterStart,
+                        totalWeeks = 16,
+                        weekFilter = zhang.myapplication.data.WeekFilter.ALL,
+                        includedWeeks = emptySet(),
+                        reminderMinutesBefore = reminderMin
+                    )
+                    val app = application as zhang.myapplication.ScheduleApp
+                    val dao = app.db.courseDao()
+                    val id = dao.upsert(course)
+                    val saved = course.copy(id = id)
+
+                    if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.S
+                        || app.alarmManager.canScheduleExactAlarms()
+                    ) {
+                        val scheduler = zhang.myapplication.domain.ReminderScheduler(this@MainActivity, app.alarmManager)
+                        scheduler.cancel(saved)
+                        scheduler.scheduleNext(saved)
+                        android.widget.Toast.makeText(this@MainActivity, "Saved & scheduled", android.widget.Toast.LENGTH_SHORT).show()
+                    } else {
+                        android.widget.Toast.makeText(
+                            this@MainActivity,
+                            "Saved. Enable exact alarms to schedule reminders.",
+                            android.widget.Toast.LENGTH_LONG
+                        ).show()
+                    }
+                }
+            }
+            .show()
+    }
+
 }
 
