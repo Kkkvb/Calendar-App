@@ -1,10 +1,6 @@
 package zhang.myapplication.data
 
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -14,6 +10,10 @@ interface CourseDao {
 
     @Query("SELECT * FROM Course")
     suspend fun getAll(): List<Course>
+
+    // NEW: fetch single course for ReminderReceiver chaining
+    @Query("SELECT * FROM Course WHERE id = :id LIMIT 1")
+    suspend fun getById(id: Long): Course?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsert(course: Course): Long

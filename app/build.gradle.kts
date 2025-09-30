@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.schedule"
+    namespace = "zhang.myapplication"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.schedule"
+        applicationId = "zhang.myapplication"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -23,6 +23,7 @@ android {
         // You use both View system (Fragments/BottomNav) and Compose. That's OK.
         viewBinding = true
         compose = true
+        buildConfig = true
     }
 
     composeOptions {
@@ -32,6 +33,23 @@ android {
     packaging {
         resources.excludes.add("/META-INF/{AL2.0,LGPL2.1}")
     }
+
+    // 1) Java compile level
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    // 2) Kotlin JVM target (used by kotlin + kapt)
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+
+// 3) Kotlin toolchain (strongly recommended so Gradle picks JDK 17 consistently)
+kotlin {
+    jvmToolchain(17)
 }
 
 dependencies {
