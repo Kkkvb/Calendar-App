@@ -22,4 +22,18 @@
         android:name="zhang.myapplication.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <!-- Settings fragment -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="zhang.myapplication.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <!-- Global action -->
+    <action
+        android:id="@+id/action_global_settingsFragment"
+        app:destination="@id/settingsFragment"
+        app:popUpTo="@id/navigation_home"
+        app:popUpToInclusive="false" />
 </navigation>

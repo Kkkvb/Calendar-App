@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:text="@string/week_filter" android:textSize="20sp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <RadioGroup android:id="@+id/rgWeekFilter"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbAll" android:text="@string/all_weeks"  android:layout_height="50dp" android:layout_width="150dp"/>
+        <RadioButton android:id="@+id/rbOdd" android:text="@string/odd_weeks"  android:layout_height="50dp" android:layout_width="150dp"/>
+        <RadioButton android:id="@+id/rbEven" android:text="@string/even_weeks"  android:layout_height="50dp" android:layout_width="150dp"/>
+    </RadioGroup>
+
+    <TextView android:text="@string/include_specific_weeks" android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <GridLayout android:id="@+id/gridWeeks"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:columnCount="4" android:layout_marginTop="8dp" />
+</LinearLayout>

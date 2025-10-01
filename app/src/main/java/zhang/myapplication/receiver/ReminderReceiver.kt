@@ -1,17 +1,17 @@
 package zhang.myapplication.receiver
 
-import android.app.NotificationChannel
-import android.app.NotificationManager
-import android.content.BroadcastReceiver
-import android.content.Context
-import android.content.Intent
+import android.app.*
+import android.content.*
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.first
+import zhang.myapplication.MainActivity
 import java.time.ZonedDateTime
 import zhang.myapplication.R
 import zhang.myapplication.ScheduleApp
 import zhang.myapplication.domain.ReminderScheduler
+import zhang.myapplication.util.*
 
 class ReminderReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
@@ -23,11 +23,18 @@ class ReminderReceiver : BroadcastReceiver() {
 
         val channelId = "course_reminders"
         val nm = context.getSystemService(NotificationManager::class.java)
-        if (Build.VERSION.SDK_INT >= 26) {
-            nm.createNotificationChannel(
-                NotificationChannel(channelId, "Course reminders", NotificationManager.IMPORTANCE_HIGH)
-            )
+
+        nm.createNotificationChannel(
+            NotificationChannel(channelId, "Course reminders", NotificationManager.IMPORTANCE_HIGH)
+        )
+
+        val prefs = runBlocking {
+            context.dataStore.data.first()
         }
+
+        val soundEnabled = prefs[NOTIF_SOUND_KEY] ?: true
+        val vibrateEnabled = prefs[NOTIF_VIBRATE_KEY] ?: true
+        val fullscreenEnabled = prefs[FULLSCREEN_ALERT_KEY] ?: false
 
         val text = buildString {
             append("Starts in $minutesBefore min")
@@ -35,17 +42,26 @@ class ReminderReceiver : BroadcastReceiver() {
             if (location.isNotBlank()) append(" · $location")
         }
 
-        val notification = NotificationCompat.Builder(context, channelId)
-            .setSmallIcon(R.drawable.ic_notifications_black_24dp) // <-- use existing drawable
+        val builder = NotificationCompat.Builder(context, channelId)
+            .setSmallIcon(R.drawable.ic_notifications_black_24dp)
             .setContentTitle(title)
             .setContentText(text)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setAutoCancel(true)
-            .build()
+            .setCategory(NotificationCompat.CATEGORY_REMINDER)
 
-        nm.notify(courseId.toInt(), notification)
+        if (soundEnabled) builder.setDefaults(NotificationCompat.DEFAULT_SOUND)
+        if (vibrateEnabled) builder.setDefaults(NotificationCompat.DEFAULT_VIBRATE)
 
-        // Chain: schedule the NEXT reminder for this course
+        if (fullscreenEnabled) {
+            val intentFS = Intent(context, MainActivity::class.java)
+            val pi = PendingIntent.getActivity(context, 0, intentFS, PendingIntent.FLAG_IMMUTABLE)
+            builder.setFullScreenIntent(pi, true)
+        }
+
+        nm.notify(courseId.toInt(), builder.build())
+
+        // Chain next reminder
         val pending = goAsync()
         CoroutineScope(Dispatchers.IO).launch {
             try {

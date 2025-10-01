@@ -53,6 +53,7 @@ kotlin {
 }
 
 dependencies {
+    implementation("androidx.gridlayout:gridlayout:1.1.0")
     // ----- Compose (keep for future Compose UI) -----
     val composeBom = platform("androidx.compose:compose-bom:2024.09.02")
     implementation(composeBom)
@@ -84,5 +85,8 @@ dependencies {
 
     // WorkManager (optional)
     implementation("androidx.work:work-runtime-ktx:2.9.1")
+
+    // Data Storage
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
 }
 

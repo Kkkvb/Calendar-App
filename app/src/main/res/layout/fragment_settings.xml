@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:text="@string/settings"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Auto-sync toggle -->
+        <TextView android:text="@string/auto_sync_to_calendar" android:textSize="18sp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Switch android:id="@+id/switchAutoSync"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <!-- Full-screen alert toggle -->
+        <TextView android:text="@string/full_screen_alerts" android:textSize="18sp"
+            android:layout_marginTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Switch android:id="@+id/switchFullscreen"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <!-- Sound toggle -->
+        <TextView android:text="@string/notification_sound" android:textSize="18sp"
+            android:layout_marginTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Switch android:id="@+id/switchSound"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <!-- Vibration toggle -->
+        <TextView android:text="@string/notification_vibration" android:textSize="18sp"
+            android:layout_marginTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Switch android:id="@+id/switchVibrate"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <!-- Theme toggle -->
+        <TextView android:text="@string/dark_theme" android:textSize="18sp"
+            android:layout_marginTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Switch android:id="@+id/switchTheme"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <!-- Backup/Export -->
+        <TextView android:text="@string/backup_amp_export" android:textSize="18sp"
+            android:layout_marginTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@+id/btnExport"
+            android:text="@string/export_courses"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <!-- Backup/Export -->
+        <TextView android:text="@string/ximport" android:textSize="18sp"
+            android:layout_marginTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@+id/btnImport"
+            android:text="@string/import_courses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <!-- Sync status -->
+        <TextView
+            android:id="@+id/tvLastSync"
+            android:text="@string/last_sync_never"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+</ScrollView>

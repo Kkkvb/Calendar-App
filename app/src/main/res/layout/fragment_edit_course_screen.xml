@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:text="@string/edit_timetable"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/optionsPanel"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <!-- Week Filter -->
+            <TextView android:text="@string/week_filter" android:textSize="16sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Spinner android:id="@+id/spWeekFilter"
+                android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+            <!-- Color Picker -->
+            <TextView android:text="@string/course_color" android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Spinner android:id="@+id/spColor"
+                android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+            <!-- Duration Selector -->
+            <TextView android:text="@string/duration_minutes" android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Spinner android:id="@+id/spDuration"
+                android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+            <!-- Preview Block -->
+            <TextView
+                android:id="@+id/previewBlock"
+                android:text="@string/preview_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:layout_marginTop="8dp"
+                android:background="#80DEEA"
+                android:textColor="#000000" />
+
+            <!-- Timetable Grid -->
+            <GridLayout
+                android:id="@+id/timetableGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="8"
+                android:rowCount="25"
+                android:useDefaultMargins="true"
+                android:alignmentMode="alignMargins"
+                android:padding="4dp" />
+
+
+            <Button
+                android:id="@+id/btnUndo"
+                android:text="@string/undo_last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:text="@string/reset_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvCourseList"
+                android:text="@string/courses"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

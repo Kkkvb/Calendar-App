@@ -11,12 +11,14 @@ import android.view.MenuItem
 import android.widget.ArrayAdapter
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationView
 import kotlinx.coroutines.launch
 import zhang.myapplication.databinding.ActivityMainBinding
 import zhang.myapplication.databinding.DialogAddCourseBinding
@@ -50,6 +52,22 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        // Sidebar View
+        val drawerLayout = binding.root.findViewById<DrawerLayout>(R.id.drawer_layout)
+        val navViewSide = findViewById<NavigationView>(R.id.nav_view_side)
+
+        navViewSide.setNavigationItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.nav_settings -> {
+                    findNavController(R.id.nav_host_fragment_activity_main)
+                        .navigate(R.id.action_global_settingsFragment)
+                    drawerLayout.closeDrawers()
+                    true
+                }
+                else -> false
+            }
+        }
 
         // === NEW: Access singletons from ScheduleApp ===
         val app = application as ScheduleApp
