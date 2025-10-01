@@ -9,7 +9,7 @@
         android:id="@+id/navigation_home"
         android:name="zhang.myapplication.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/item_course" />
 
     <fragment
         android:id="@+id/navigation_dashboard"

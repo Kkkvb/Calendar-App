@@ -1,13 +1,14 @@
 package zhang.myapplication
 
 import android.Manifest
-import android.app.AlarmManager
+import android.app.TimePickerDialog
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.ArrayAdapter
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -16,18 +17,11 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import zhang.myapplication.databinding.ActivityMainBinding
-import android.app.TimePickerDialog
-import android.widget.ArrayAdapter
-import android.widget.Toast
-import zhang.myapplication.databinding.DialogAddCourseBinding
-import zhang.myapplication.BuildConfig
-
 import kotlinx.coroutines.launch
-import java.time.*
+import zhang.myapplication.databinding.ActivityMainBinding
+import zhang.myapplication.databinding.DialogAddCourseBinding
 import zhang.myapplication.domain.ReminderScheduler
-import zhang.myapplication.data.Course
-import zhang.myapplication.data.WeekFilter
+import java.time.LocalTime
 
 class MainActivity : AppCompatActivity() {
 
@@ -121,7 +115,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun showAddCourseDialog() {
+    fun showAddCourseDialog() {
         val app = application as ScheduleApp
         val dao = app.db.courseDao()
         val scheduler = ReminderScheduler(this, app.alarmManager)
