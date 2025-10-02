@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Match these IDs to your NavGraph destination IDs if you want auto-navigation -->
+    <item
+        android:id="@+id/nav_settings"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:title="@string/about" />
+</menu>

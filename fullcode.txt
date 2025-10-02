@@ -11,11 +11,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
 import android.widget.Toast
-import androidx.activity.addCallback
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import androidx.core.view.GravityCompat
 import androidx.core.view.isVisible
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.lifecycleScope
@@ -23,7 +21,6 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.onNavDestinationSelected
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -51,58 +48,42 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // --- Toolbar (optional if your layout includes @id/toolbar) ---
+        // --- Optional toolbar hookup (only if your layout has @id/toolbar) ---
         val toolbar: Toolbar? = binding.root.findViewById(R.id.toolbar)
         toolbar?.let { setSupportActionBar(it) }
 
         // --- NavController / host ---
-        val navHost =
-            supportFragmentManager.findFragmentById(R.id.nav_host_fragment_activity_main) as NavHostFragment
+        val navHost = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment_activity_main) as NavHostFragment
         val navController = navHost.navController
 
         // --- Bottom navigation (Home/Dashboard/Notifications) ---
         val bottomNav: BottomNavigationView = binding.navView
         bottomNav.setupWithNavController(navController)
-        bottomNav.setOnItemReselectedListener { /* no-op to avoid reloading */ }
 
         // --- DrawerLayout & Side Navigation (Settings etc.) ---
         val drawerLayout: DrawerLayout? = binding.root.findViewById(R.id.drawer_layout)
         val sideNav: NavigationView? = findViewById(R.id.nav_view_side)
-
-        // Let NavigationUI handle any items whose IDs map to destinations
         sideNav?.setupWithNavController(navController)
-
-        // Ensure your custom Settings item (id = nav_settings) navigates via global action
-        sideNav?.setNavigationItemSelectedListener { item ->
-            val handled = when (item.itemId) {
+        sideNav?.setNavigationItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
                 R.id.nav_settings -> {
-                    val globalAction = R.id.action_global_settingsFragment
-                    val directDest = R.id.settingsFragment // ensure this id exists in your graph
-                    when {
-                        // Use global action if the current destination supports it
-                        navController.currentDestination?.getAction(globalAction) != null -> {
-                            navController.navigate(globalAction); true
-                        }
-                        // Else navigate directly to the destination
-                        navController.graph.findNode(directDest) != null -> {
-                            navController.navigate(directDest); true
-                        }
-                        else -> {
-                            // As a last resort, let NavigationUI try
-                            item.onNavDestinationSelected(navController)
-                        }
-                    }
+                    // navigate via global action to SettingsFragment
+                    findNavController(R.id.nav_host_fragment_activity_main)
+                        .navigate(R.id.action_global_settingsFragment)
+                    drawerLayout?.closeDrawers()
+                    true
                 }
-                else -> item.onNavDestinationSelected(navController)
+
+                else -> false
             }
-            if (handled) drawerLayout?.closeDrawers()
-            handled
         }
 
-        // --- AppBarConfiguration with Drawer: hamburger on top-level destinations ---
+        // --- AppBarConfiguration with Drawer: shows hamburger on top-level destinations ---
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.navigation_home,
@@ -121,19 +102,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_notifications
             )
             binding.navView.isVisible = isTopLevel
-            if (drawerLayout?.isDrawerOpen(GravityCompat.START) == true) {
-                drawerLayout.closeDrawer(GravityCompat.START)
-            }
-        }
-
-        // Back closes drawer first; otherwise normal back
-        onBackPressedDispatcher.addCallback(this) {
-            if (drawerLayout?.isDrawerOpen(GravityCompat.START) == true) {
-                drawerLayout.closeDrawer(GravityCompat.START)
-            } else {
-                isEnabled = false
-                onBackPressedDispatcher.onBackPressed()
-            }
         }
 
         // === Access singletons from ScheduleApp if needed ===
@@ -143,7 +111,6 @@ class MainActivity : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= 33) {
             requestNotifPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
-
         // Exact alarms (Android 12+): open settings if not allowed
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             if (!app.alarmManager.canScheduleExactAlarms()) {
@@ -173,11 +140,12 @@ class MainActivity : AppCompatActivity() {
                 showAddCourseDialog()
                 true
             }
+
             else -> super.onOptionsItemSelected(item)
         }
     }
 
-    // ----- Add Course dialog -----
+    // ----- Add Course dialog (kept from your implementation) -----
     @SuppressLint("SetTextI18n")
     fun showAddCourseDialog() {
         val app = application as ScheduleApp
@@ -187,8 +155,7 @@ class MainActivity : AppCompatActivity() {
 
         // Day spinner
         val days = resources.getStringArray(R.array.days_of_week).toList()
-        b.spDay.adapter =
-            ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, days)
+        b.spDay.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, days)
 
         var startTime: LocalTime? = null
         var endTime: LocalTime? = null
@@ -221,21 +188,20 @@ class MainActivity : AppCompatActivity() {
                 val dayOfWeek = DayOfWeek.of(((dayIdx + 1 - 1) % 7) + 1)
 
                 val st = startTime ?: run {
-                    Toast.makeText(this, "Pick a start time", Toast.LENGTH_SHORT).show()
-                    return@setPositiveButton
+                    Toast.makeText(this, "Pick a start time", Toast.LENGTH_SHORT)
+                        .show(); return@setPositiveButton
                 }
                 val et = endTime ?: run {
-                    Toast.makeText(this, "Pick an end time", Toast.LENGTH_SHORT).show()
-                    return@setPositiveButton
+                    Toast.makeText(this, "Pick an end time", Toast.LENGTH_SHORT)
+                        .show(); return@setPositiveButton
                 }
                 if (title.isBlank()) {
-                    Toast.makeText(this, "Please enter a title", Toast.LENGTH_SHORT).show()
-                    return@setPositiveButton
+                    Toast.makeText(this, "Please enter a title", Toast.LENGTH_SHORT)
+                        .show(); return@setPositiveButton
                 }
                 if (!et.isAfter(st)) {
                     Toast.makeText(this, "End time must be after start time", Toast.LENGTH_SHORT)
-                        .show()
-                    return@setPositiveButton
+                        .show(); return@setPositiveButton
                 }
 
                 val semesterStart = LocalDate.now()
@@ -257,17 +223,13 @@ class MainActivity : AppCompatActivity() {
                     val id = dao.upsert(course)
                     val saved = course.copy(id = id)
 
-                    // Schedule if allowed on this OS level OR exact-alarms capability present
                     if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S ||
                         app.alarmManager.canScheduleExactAlarms()
                     ) {
                         scheduler.cancel(saved)
                         scheduler.scheduleNext(saved)
-                        Toast.makeText(
-                            this@MainActivity,
-                            "Saved & scheduled",
-                            Toast.LENGTH_SHORT
-                        ).show()
+                        Toast.makeText(this@MainActivity, "Saved & scheduled", Toast.LENGTH_SHORT)
+                            .show()
                     } else {
                         Toast.makeText(
                             this@MainActivity,

@@ -36,4 +36,16 @@
     <string name="courses">Courses:</string>
     <string name="reset_all">Reset All</string>
     <string name="undo_last">Undo Last</string>
+    <string name="sync_to_calendar">Sync to Calendar</string>
+    <string name="auto_sync_unknown">Auto-sync: Unknown</string>
+    <string name="last_sync_unknown">Last sync: Unknown</string>
+    <string name="appearance">Appearance</string>
+    <string name="sound">Sound</string>
+    <string name="vibration">Vibration</string>
+    <string name="full_screen_alert_android_14_requires_special_access">Full‑screen alert (Android 14+: requires special access)</string>
+    <string name="manage_exact_alarms_permission">Manage Exact Alarms Permission</string>
+    <string name="courses_import_export">Courses (Import / Export)</string>
+    <string name="export_courses_uni_json">Export courses (.uni.json)</string>
+    <string name="import_courses_uni_json">Import courses (.uni.json)</string>
+    <string name="about">About</string>
 </resources>

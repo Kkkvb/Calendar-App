@@ -1,6 +1,8 @@
 package zhang.myapplication.ui.notifications
 
+import android.annotation.SuppressLint
 import android.app.TimePickerDialog
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
@@ -30,7 +32,6 @@ class NotificationsFragment : Fragment() {
 
     private var _binding: FragmentNotificationsBinding? = null
     private val binding get() = _binding!!
-
     private lateinit var adapter: CoursesAdapter
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
@@ -78,11 +79,11 @@ class NotificationsFragment : Fragment() {
     }
 
     /** If [existing] is null → Add; else Edit (prefilled). */
+    @SuppressLint("SetTextI18n")
     private fun showAddOrEditDialog(existing: Course? = null) {
         val app = requireActivity().application as ScheduleApp
         val dao = app.db.courseDao()
         val scheduler = ReminderScheduler(requireContext(), app.alarmManager)
-
         val b = DialogAddCourseBinding.inflate(layoutInflater)
 
         // Prepare day spinner
@@ -92,7 +93,6 @@ class NotificationsFragment : Fragment() {
         // Prefill if editing
         var startTime: LocalTime? = existing?.startTime
         var endTime: LocalTime? = existing?.endTime
-
         if (existing != null) {
             b.etTitle.setText(existing.title)
             b.etLocation.setText(existing.location ?: "")
@@ -129,7 +129,6 @@ class NotificationsFragment : Fragment() {
                 val dayIdx = b.spDay.selectedItemPosition
                 val dayOfWeek = DayOfWeek.of(dayIdx + 1)
 
-                // Non-null locals with guards
                 val st = startTime ?: run {
                     Toast.makeText(requireContext(), "Pick a start time", Toast.LENGTH_SHORT).show()
                     return@setPositiveButton
@@ -178,16 +177,16 @@ class NotificationsFragment : Fragment() {
                     val saved = updated.copy(id = if (existing == null) id else existing.id)
 
                     // Schedule/cancel
-                    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S
-                        || app.alarmManager.canScheduleExactAlarms()
+                    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S ||
+                        app.alarmManager.canScheduleExactAlarms()
                     ) {
-                        scheduler.cancel(saved)    // prevent duplicates
+                        scheduler.cancel(saved) // prevent duplicates
                         scheduler.scheduleNext(saved)
                         Toast.makeText(requireContext(), "Saved & scheduled", Toast.LENGTH_SHORT).show()
                     } else {
                         // Optional: deep link to exact-alarms settings
                         startActivity(
-                            android.content.Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
+                            Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
                                 .setData(android.net.Uri.parse("package:${requireContext().packageName}"))
                         )
                         Toast.makeText(requireContext(), "Saved. Enable exact alarms to schedule.", Toast.LENGTH_LONG).show()

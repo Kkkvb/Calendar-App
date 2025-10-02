@@ -26,7 +26,7 @@
     <!-- Settings fragment -->
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="zhang.myapplication.ui.settings.SettingsFragment"
+        android:name="zhang.myapplication.ui.settings.SettingsFragmentOriginal"
         android:label="Settings"
         tools:layout="@layout/fragment_settings" />
 

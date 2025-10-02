@@ -5,6 +5,7 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface CourseDao {
+
     @Query("SELECT * FROM Course")
     fun observeAll(): Flow<List<Course>>
 
@@ -20,4 +21,8 @@ interface CourseDao {
 
     @Delete
     suspend fun delete(course: Course)
+
+    // NEW: remove all courses (used by Settings import to REPLACE)
+    @Query("DELETE FROM Course")
+    suspend fun deleteAll()
 }

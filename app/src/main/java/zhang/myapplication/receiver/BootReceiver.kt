@@ -6,7 +6,6 @@ import android.content.Intent
 import kotlinx.coroutines.*
 import zhang.myapplication.ScheduleApp
 import zhang.myapplication.domain.ReminderScheduler
-import zhang.myapplication.data.Course // (optional import for clarity)
 
 class BootReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
@@ -18,13 +17,12 @@ class BootReceiver : BroadcastReceiver() {
                 val app = context.applicationContext as ScheduleApp
                 val dao = app.db.courseDao()
                 val scheduler = ReminderScheduler(context, app.alarmManager)
-                val courses = dao.getAll() // explicit local List<Course>
+                val courses = dao.getAll()
                 for (course in courses) {
                     scheduler.scheduleNext(course)
                 }
             } finally {
                 pending.finish()
-
             }
         }
     }

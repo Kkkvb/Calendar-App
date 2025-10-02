@@ -1,0 +1,4298 @@
+¦C¥XºÏºÐ°Ï OS ªº¸ê®Æ§¨ PATH
+ºÏºÐ°Ï§Ç¸¹¬° 8ACD-7061
+C:\SOFTWARES\ANDROIDSTUDIOSAVES\CALENDAR\APP
+¢u¢wbuild
+¢x  ¢u¢wgenerated
+¢x  ¢x  ¢u¢wap_generated_sources
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wdata_binding_base_class_source_out
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢x          ¢|¢wzhang
+¢x  ¢x  ¢x              ¢|¢wmyapplication
+¢x  ¢x  ¢x                  ¢|¢wdatabinding
+¢x  ¢x  ¢u¢wres
+¢x  ¢x  ¢x  ¢u¢wpngs
+¢x  ¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x  ¢|¢wresValues
+¢x  ¢x  ¢x      ¢|¢wdebug
+¢x  ¢x  ¢|¢wsource
+¢x  ¢x      ¢u¢wbuildConfig
+¢x  ¢x      ¢x  ¢|¢wdebug
+¢x  ¢x      ¢x      ¢|¢wzhang
+¢x  ¢x      ¢x          ¢|¢wmyapplication
+¢x  ¢x      ¢u¢wkapt
+¢x  ¢x      ¢x  ¢|¢wdebug
+¢x  ¢x      ¢x      ¢|¢wzhang
+¢x  ¢x      ¢x          ¢|¢wmyapplication
+¢x  ¢x      ¢x              ¢|¢wdata
+¢x  ¢x      ¢|¢wkaptKotlin
+¢x  ¢x          ¢|¢wdebug
+¢x  ¢u¢wintermediates
+¢x  ¢x  ¢u¢waar_metadata_check
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wannotation_processor_list
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wapk
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wapk_ide_redirect_file
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wapp_metadata
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wassets
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wcompatible_screen_manifest
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wcompile_and_runtime_not_namespaced_r_class_jar
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wcompressed_assets
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wdata_binding_base_class_log_artifact
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wdata_binding_dependency_artifacts
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wdata_binding_layout_info_type_merge
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wdata_binding_layout_info_type_package
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wdesugar_graph
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢x          ¢u¢wcurrentProject
+¢x  ¢x  ¢x          ¢x  ¢u¢wdirs_bucket_0
+¢x  ¢x  ¢x          ¢x  ¢u¢wdirs_bucket_1
+¢x  ¢x  ¢x          ¢x  ¢u¢wdirs_bucket_2
+¢x  ¢x  ¢x          ¢x  ¢u¢wdirs_bucket_3
+¢x  ¢x  ¢x          ¢x  ¢u¢wjar_8f99dcfbef2ccd292c0b9bb7a2559d0bf74553c52a1013767bc57d994f25dddb_bucket_0
+¢x  ¢x  ¢x          ¢x  ¢u¢wjar_8f99dcfbef2ccd292c0b9bb7a2559d0bf74553c52a1013767bc57d994f25dddb_bucket_1
+¢x  ¢x  ¢x          ¢x  ¢u¢wjar_8f99dcfbef2ccd292c0b9bb7a2559d0bf74553c52a1013767bc57d994f25dddb_bucket_2
+¢x  ¢x  ¢x          ¢x  ¢|¢wjar_8f99dcfbef2ccd292c0b9bb7a2559d0bf74553c52a1013767bc57d994f25dddb_bucket_3
+¢x  ¢x  ¢x          ¢u¢wexternalLibs
+¢x  ¢x  ¢x          ¢u¢wmixedScopes
+¢x  ¢x  ¢x          ¢|¢wotherProjects
+¢x  ¢x  ¢u¢wdex
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢u¢wmergeExtDexDebug
+¢x  ¢x  ¢x      ¢u¢wmergeLibDexDebug
+¢x  ¢x  ¢x      ¢x  ¢u¢w0
+¢x  ¢x  ¢x      ¢x  ¢u¢w1
+¢x  ¢x  ¢x      ¢x  ¢u¢w10
+¢x  ¢x  ¢x      ¢x  ¢u¢w11
+¢x  ¢x  ¢x      ¢x  ¢u¢w12
+¢x  ¢x  ¢x      ¢x  ¢u¢w13
+¢x  ¢x  ¢x      ¢x  ¢u¢w14
+¢x  ¢x  ¢x      ¢x  ¢u¢w15
+¢x  ¢x  ¢x      ¢x  ¢u¢w2
+¢x  ¢x  ¢x      ¢x  ¢u¢w3
+¢x  ¢x  ¢x      ¢x  ¢u¢w4
+¢x  ¢x  ¢x      ¢x  ¢u¢w5
+¢x  ¢x  ¢x      ¢x  ¢u¢w6
+¢x  ¢x  ¢x      ¢x  ¢u¢w7
+¢x  ¢x  ¢x      ¢x  ¢u¢w8
+¢x  ¢x  ¢x      ¢x  ¢|¢w9
+¢x  ¢x  ¢x      ¢|¢wmergeProjectDexDebug
+¢x  ¢x  ¢x          ¢u¢w0
+¢x  ¢x  ¢x          ¢u¢w1
+¢x  ¢x  ¢x          ¢u¢w10
+¢x  ¢x  ¢x          ¢u¢w11
+¢x  ¢x  ¢x          ¢u¢w12
+¢x  ¢x  ¢x          ¢u¢w13
+¢x  ¢x  ¢x          ¢u¢w14
+¢x  ¢x  ¢x          ¢u¢w15
+¢x  ¢x  ¢x          ¢u¢w2
+¢x  ¢x  ¢x          ¢u¢w3
+¢x  ¢x  ¢x          ¢u¢w4
+¢x  ¢x  ¢x          ¢u¢w5
+¢x  ¢x  ¢x          ¢u¢w6
+¢x  ¢x  ¢x          ¢u¢w7
+¢x  ¢x  ¢x          ¢u¢w8
+¢x  ¢x  ¢x          ¢|¢w9
+¢x  ¢x  ¢u¢wdex_archive_input_jar_hashes
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wdex_number_of_buckets_file
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wduplicate_classes_check
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wexternal_file_lib_dex_archives
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wexternal_libs_dex_archive
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wexternal_libs_dex_archive_with_artifact_transforms
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wglobal_synthetics_dex
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wglobal_synthetics_external_lib
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wglobal_synthetics_external_libs_artifact_transform
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wglobal_synthetics_file_lib
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wglobal_synthetics_mixed_scope
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wglobal_synthetics_project
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wglobal_synthetics_subproject
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wincremental
+¢x  ¢x  ¢x  ¢u¢wdataBindingGenBaseClassesDebug
+¢x  ¢x  ¢x  ¢u¢wdebug
+¢x  ¢x  ¢x  ¢x  ¢u¢wmergeDebugResources
+¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wmerged.dir
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-af
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-am
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ar
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-as
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-az
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-b+es+419
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-b+sr+Latn
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-be
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-bg
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-bn
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-bs
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ca
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-cs
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-da
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-de
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-el
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-en-rAU
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-en-rCA
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-en-rGB
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-en-rIN
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-en-rXC
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-es
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-es-rUS
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-et
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-eu
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-fa
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-fi
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-fr
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-fr-rCA
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-gl
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-gu
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-h320dp-port-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-h360dp-land-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-h480dp-land-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-h550dp-port-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-h720dp-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-hdpi-v4
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-hi
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-hr
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-hu
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-hy
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-in
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-is
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-it
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-iw
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ja
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ka
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-kk
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-km
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-kn
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ko
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ky
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-land
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-large-v4
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ldltr-v21
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ldrtl-v17
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-lo
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-lt
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-lv
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-mk
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ml
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-mn
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-mr
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ms
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-my
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-nb
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ne
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-night-v8
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-nl
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-or
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-pa
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-pl
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-port
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-pt
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-pt-rBR
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-pt-rPT
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ro
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ru
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-si
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-sk
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-sl
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-small-v4
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-sq
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-sr
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-sv
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-sw
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-sw600dp-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ta
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-te
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-th
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-tl
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-tr
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-uk
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-ur
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-uz
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v16
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v17
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v18
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v21
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v22
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v23
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v24
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v25
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v26
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v28
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v30
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v31
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-v34
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-vi
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-w320dp-land-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-w360dp-port-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-w400dp-port-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-w600dp-land-v13
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-watch-v20
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-watch-v21
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-xlarge-v4
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-zh-rCN
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-zh-rHK
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢u¢wvalues-zh-rTW
+¢x  ¢x  ¢x  ¢x  ¢x  ¢x  ¢|¢wvalues-zu
+¢x  ¢x  ¢x  ¢x  ¢x  ¢|¢wstripped.dir
+¢x  ¢x  ¢x  ¢x  ¢x      ¢|¢wlayout
+¢x  ¢x  ¢x  ¢x  ¢|¢wpackageDebugResources
+¢x  ¢x  ¢x  ¢x      ¢u¢wmerged.dir
+¢x  ¢x  ¢x  ¢x      ¢x  ¢u¢wvalues
+¢x  ¢x  ¢x  ¢x      ¢x  ¢|¢wvalues-night-v8
+¢x  ¢x  ¢x  ¢x      ¢|¢wstripped.dir
+¢x  ¢x  ¢x  ¢x          ¢|¢wlayout
+¢x  ¢x  ¢x  ¢u¢wdebug-mergeJavaRes
+¢x  ¢x  ¢x  ¢x  ¢|¢wzip-cache
+¢x  ¢x  ¢x  ¢u¢wmergeDebugAssets
+¢x  ¢x  ¢x  ¢u¢wmergeDebugJniLibFolders
+¢x  ¢x  ¢x  ¢u¢wmergeDebugShaders
+¢x  ¢x  ¢x  ¢|¢wpackageDebug
+¢x  ¢x  ¢x      ¢|¢wtmp
+¢x  ¢x  ¢x          ¢|¢wdebug
+¢x  ¢x  ¢x              ¢|¢wzip-cache
+¢x  ¢x  ¢u¢wjavac
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wclasses
+¢x  ¢x  ¢x          ¢|¢wzhang
+¢x  ¢x  ¢x              ¢|¢wmyapplication
+¢x  ¢x  ¢x                  ¢u¢wdata
+¢x  ¢x  ¢x                  ¢|¢wdatabinding
+¢x  ¢x  ¢u¢wjava_res
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢x          ¢u¢wMETA-INF
+¢x  ¢x  ¢x          ¢|¢wzhang
+¢x  ¢x  ¢x              ¢|¢wmyapplication
+¢x  ¢x  ¢x                  ¢u¢wdata
+¢x  ¢x  ¢x                  ¢u¢wdomain
+¢x  ¢x  ¢x                  ¢u¢wreceiver
+¢x  ¢x  ¢x                  ¢u¢wui
+¢x  ¢x  ¢x                  ¢x  ¢u¢wcommon
+¢x  ¢x  ¢x                  ¢x  ¢u¢wdashboard
+¢x  ¢x  ¢x                  ¢x  ¢u¢whome
+¢x  ¢x  ¢x                  ¢x  ¢u¢wnotifications
+¢x  ¢x  ¢x                  ¢x  ¢u¢wscreens
+¢x  ¢x  ¢x                  ¢x  ¢|¢wsettings
+¢x  ¢x  ¢x                  ¢|¢wutil
+¢x  ¢x  ¢u¢wlocal_only_symbol_list
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wmanifest_merge_blame_file
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wmerged_java_res
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wmerged_jni_libs
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wmerged_manifest
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wmerged_manifests
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wmerged_native_libs
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢x          ¢|¢wlib
+¢x  ¢x  ¢x              ¢u¢warm64-v8a
+¢x  ¢x  ¢x              ¢u¢warmeabi-v7a
+¢x  ¢x  ¢x              ¢u¢wx86
+¢x  ¢x  ¢x              ¢|¢wx86_64
+¢x  ¢x  ¢u¢wmerged_res
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wmerged_res_blame_folder
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢x          ¢u¢wmulti-v2
+¢x  ¢x  ¢x          ¢|¢wsingle
+¢x  ¢x  ¢u¢wmerged_shaders
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wmixed_scope_dex_archive
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wnavigation_json
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wpackaged_manifests
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wpackaged_res
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢u¢wdrawable
+¢x  ¢x  ¢x      ¢u¢wlayout
+¢x  ¢x  ¢x      ¢u¢wmenu
+¢x  ¢x  ¢x      ¢u¢wmipmap-anydpi-v26
+¢x  ¢x  ¢x      ¢u¢wmipmap-hdpi-v4
+¢x  ¢x  ¢x      ¢u¢wmipmap-mdpi-v4
+¢x  ¢x  ¢x      ¢u¢wmipmap-xhdpi-v4
+¢x  ¢x  ¢x      ¢u¢wmipmap-xxhdpi-v4
+¢x  ¢x  ¢x      ¢u¢wmipmap-xxxhdpi-v4
+¢x  ¢x  ¢x      ¢u¢wnavigation
+¢x  ¢x  ¢x      ¢u¢wvalues
+¢x  ¢x  ¢x      ¢u¢wvalues-night-v8
+¢x  ¢x  ¢x      ¢|¢wxml
+¢x  ¢x  ¢u¢wprocessed_res
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wproject_dex_archive
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢x          ¢|¢wzhang
+¢x  ¢x  ¢x              ¢|¢wmyapplication
+¢x  ¢x  ¢x                  ¢u¢wdata
+¢x  ¢x  ¢x                  ¢u¢wdatabinding
+¢x  ¢x  ¢x                  ¢u¢wdomain
+¢x  ¢x  ¢x                  ¢u¢wreceiver
+¢x  ¢x  ¢x                  ¢u¢wui
+¢x  ¢x  ¢x                  ¢x  ¢u¢wcommon
+¢x  ¢x  ¢x                  ¢x  ¢u¢wdashboard
+¢x  ¢x  ¢x                  ¢x  ¢u¢whome
+¢x  ¢x  ¢x                  ¢x  ¢u¢wnotifications
+¢x  ¢x  ¢x                  ¢x  ¢u¢wscreens
+¢x  ¢x  ¢x                  ¢x  ¢|¢wsettings
+¢x  ¢x  ¢x                  ¢|¢wutil
+¢x  ¢x  ¢u¢wruntime_symbol_list
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wsigning_config_versions
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wsource_set_path_map
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wstable_resource_ids_file
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wstripped_native_libs
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢x          ¢|¢wlib
+¢x  ¢x  ¢x              ¢u¢warm64-v8a
+¢x  ¢x  ¢x              ¢u¢warmeabi-v7a
+¢x  ¢x  ¢x              ¢u¢wx86
+¢x  ¢x  ¢x              ¢|¢wx86_64
+¢x  ¢x  ¢u¢wsub_project_dex_archive
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢x      ¢|¢wout
+¢x  ¢x  ¢u¢wsymbol_list_with_package_name
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢u¢wvalidate_signing_config
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢|¢wvariant_model
+¢x  ¢x      ¢|¢wdebug
+¢x  ¢u¢wkotlin
+¢x  ¢x  ¢u¢wcompileDebugKotlin
+¢x  ¢x  ¢x  ¢u¢wcacheable
+¢x  ¢x  ¢x  ¢x  ¢|¢wcaches-jvm
+¢x  ¢x  ¢x  ¢x      ¢u¢winputs
+¢x  ¢x  ¢x  ¢x      ¢u¢wjvm
+¢x  ¢x  ¢x  ¢x      ¢x  ¢|¢wkotlin
+¢x  ¢x  ¢x  ¢x      ¢|¢wlookups
+¢x  ¢x  ¢x  ¢u¢wclasspath-snapshot
+¢x  ¢x  ¢x  ¢|¢wlocal-state
+¢x  ¢x  ¢|¢wkaptGenerateStubsDebugKotlin
+¢x  ¢x      ¢u¢wcacheable
+¢x  ¢x      ¢x  ¢|¢wcaches-jvm
+¢x  ¢x      ¢x      ¢u¢winputs
+¢x  ¢x      ¢x      ¢u¢wjvm
+¢x  ¢x      ¢x      ¢x  ¢|¢wkotlin
+¢x  ¢x      ¢x      ¢|¢wlookups
+¢x  ¢x      ¢u¢wclasspath-snapshot
+¢x  ¢x      ¢|¢wlocal-state
+¢x  ¢u¢woutputs
+¢x  ¢x  ¢u¢wapk
+¢x  ¢x  ¢x  ¢|¢wdebug
+¢x  ¢x  ¢|¢wlogs
+¢x  ¢|¢wtmp
+¢x      ¢u¢wcompileDebugJavaWithJavac
+¢x      ¢u¢wkapt3
+¢x      ¢x  ¢u¢wclasses
+¢x      ¢x  ¢x  ¢|¢wdebug
+¢x      ¢x  ¢u¢wincApCache
+¢x      ¢x  ¢x  ¢|¢wdebug
+¢x      ¢x  ¢u¢wincrementalData
+¢x      ¢x  ¢x  ¢|¢wdebug
+¢x      ¢x  ¢x      ¢u¢wMETA-INF
+¢x      ¢x  ¢x      ¢|¢wzhang
+¢x      ¢x  ¢x          ¢|¢wmyapplication
+¢x      ¢x  ¢x              ¢u¢wdata
+¢x      ¢x  ¢x              ¢u¢wdomain
+¢x      ¢x  ¢x              ¢u¢wreceiver
+¢x      ¢x  ¢x              ¢u¢wui
+¢x      ¢x  ¢x              ¢x  ¢u¢wcommon
+¢x      ¢x  ¢x              ¢x  ¢u¢wdashboard
+¢x      ¢x  ¢x              ¢x  ¢u¢whome
+¢x      ¢x  ¢x              ¢x  ¢u¢wnotifications
+¢x      ¢x  ¢x              ¢x  ¢u¢wscreens
+¢x      ¢x  ¢x              ¢x  ¢|¢wsettings
+¢x      ¢x  ¢x              ¢|¢wutil
+¢x      ¢x  ¢|¢wstubs
+¢x      ¢x      ¢|¢wdebug
+¢x      ¢x          ¢u¢werror
+¢x      ¢x          ¢|¢wzhang
+¢x      ¢x              ¢|¢wmyapplication
+¢x      ¢x                  ¢u¢wdata
+¢x      ¢x                  ¢u¢wdomain
+¢x      ¢x                  ¢u¢wreceiver
+¢x      ¢x                  ¢u¢wui
+¢x      ¢x                  ¢x  ¢u¢wcommon
+¢x      ¢x                  ¢x  ¢u¢wdashboard
+¢x      ¢x                  ¢x  ¢u¢whome
+¢x      ¢x                  ¢x  ¢u¢wnotifications
+¢x      ¢x                  ¢x  ¢u¢wscreens
+¢x      ¢x                  ¢x  ¢|¢wsettings
+¢x      ¢x                  ¢|¢wutil
+¢x      ¢|¢wkotlin-classes
+¢x          ¢|¢wdebug
+¢x              ¢u¢wMETA-INF
+¢x              ¢|¢wzhang
+¢x                  ¢|¢wmyapplication
+¢x                      ¢u¢wdata
+¢x                      ¢u¢wdomain
+¢x                      ¢u¢wreceiver
+¢x                      ¢u¢wui
+¢x                      ¢x  ¢u¢wcommon
+¢x                      ¢x  ¢u¢wdashboard
+¢x                      ¢x  ¢u¢whome
+¢x                      ¢x  ¢u¢wnotifications
+¢x                      ¢x  ¢u¢wscreens
+¢x                      ¢x  ¢|¢wsettings
+¢x                      ¢|¢wutil
+¢u¢wlibs
+¢|¢wsrc
+    ¢u¢wandroidTest
+    ¢x  ¢|¢wjava
+    ¢x      ¢|¢wzhang
+    ¢x          ¢|¢wmyapplication
+    ¢u¢wmain
+    ¢x  ¢u¢wjava
+    ¢x  ¢x  ¢|¢wzhang
+    ¢x  ¢x      ¢|¢wmyapplication
+    ¢x  ¢x          ¢u¢wdata
+    ¢x  ¢x          ¢u¢wdomain
+    ¢x  ¢x          ¢u¢wreceiver
+    ¢x  ¢x          ¢u¢wui
+    ¢x  ¢x          ¢x  ¢u¢wcommon
+    ¢x  ¢x          ¢x  ¢u¢wdashboard
+    ¢x  ¢x          ¢x  ¢u¢whome
+    ¢x  ¢x          ¢x  ¢u¢wnotifications
+    ¢x  ¢x          ¢x  ¢u¢wscreens
+    ¢x  ¢x          ¢x  ¢|¢wsettings
+    ¢x  ¢x          ¢|¢wutil
+    ¢x  ¢|¢wres
+    ¢x      ¢u¢wdrawable
+    ¢x      ¢u¢wlayout
+    ¢x      ¢u¢wmenu
+    ¢x      ¢u¢wmipmap-anydpi-v26
+    ¢x      ¢u¢wmipmap-hdpi
+    ¢x      ¢u¢wmipmap-mdpi
+    ¢x      ¢u¢wmipmap-xhdpi
+    ¢x      ¢u¢wmipmap-xxhdpi
+    ¢x      ¢u¢wmipmap-xxxhdpi
+    ¢x      ¢u¢wnavigation
+    ¢x      ¢u¢wvalues
+    ¢x      ¢u¢wvalues-night
+    ¢x      ¢|¢wxml
+    ¢|¢wtest
+        ¢|¢wjava
+            ¢|¢wzhang
+                ¢|¢wmyapplication
+File: src\main\AndroidManifest.xml
+Lines: 50
+-----BEGIN src\main\AndroidManifest.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Notifications (Android 13+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Exact alarms (Android 12+) -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <!-- Reboot rescheduling -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Calendar access for sync -->
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
+    <!-- Full-screen notifications (Android 10+, restricted on Android 14+) -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+
+    <application
+        android:name="zhang.myapplication.ScheduleApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Calendar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".receiver.ReminderReceiver"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receiver.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>
+
+-----END src\main\AndroidManifest.xml-----
+
+File: src\main\java\zhang\myapplication\MainActivity.kt
+Lines: 281
+-----BEGIN src\main\java\zhang\myapplication\MainActivity.kt-----
+package zhang.myapplication
+
+import android.Manifest
+import android.annotation.SuppressLint
+import android.app.TimePickerDialog
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import android.provider.Settings
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.ArrayAdapter
+import android.widget.Toast
+import androidx.activity.addCallback
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import androidx.core.view.GravityCompat
+import androidx.core.view.isVisible
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.lifecycle.lifecycleScope
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
+import androidx.navigation.ui.onNavDestinationSelected
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationView
+import kotlinx.coroutines.launch
+import zhang.myapplication.data.Course
+import zhang.myapplication.data.WeekFilter
+import zhang.myapplication.databinding.ActivityMainBinding
+import zhang.myapplication.databinding.DialogAddCourseBinding
+import zhang.myapplication.domain.ReminderScheduler
+import java.time.DayOfWeek
+import java.time.LocalDate
+import java.time.LocalTime
+import java.time.temporal.TemporalAdjusters
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+    private lateinit var appBarConfiguration: AppBarConfiguration
+
+    // Ask for notifications on Android 13+ when app starts
+    private val requestNotifPermission = registerForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { /* no-op */ }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        // --- Toolbar (optional if your layout includes @id/toolbar) ---
+        val toolbar: Toolbar? = binding.root.findViewById(R.id.toolbar)
+        toolbar?.let { setSupportActionBar(it) }
+
+        // --- NavController / host ---
+        val navHost =
+            supportFragmentManager.findFragmentById(R.id.nav_host_fragment_activity_main) as NavHostFragment
+        val navController = navHost.navController
+
+        // --- Bottom navigation (Home/Dashboard/Notifications) ---
+        val bottomNav: BottomNavigationView = binding.navView
+        bottomNav.setupWithNavController(navController)
+        bottomNav.setOnItemReselectedListener { /* no-op to avoid reloading */ }
+
+        // --- DrawerLayout & Side Navigation (Settings etc.) ---
+        val drawerLayout: DrawerLayout? = binding.root.findViewById(R.id.drawer_layout)
+        val sideNav: NavigationView? = findViewById(R.id.nav_view_side)
+
+        // Let NavigationUI handle any items whose IDs map to destinations
+        sideNav?.setupWithNavController(navController)
+
+        // Ensure your custom Settings item (id = nav_settings) navigates via global action
+        sideNav?.setNavigationItemSelectedListener { item ->
+            val handled = when (item.itemId) {
+                R.id.nav_settings -> {
+                    val globalAction = R.id.action_global_settingsFragment
+                    val directDest = R.id.settingsFragment // ensure this id exists in your graph
+                    when {
+                        // Use global action if the current destination supports it
+                        navController.currentDestination?.getAction(globalAction) != null -> {
+                            navController.navigate(globalAction); true
+                        }
+                        // Else navigate directly to the destination
+                        navController.graph.findNode(directDest) != null -> {
+                            navController.navigate(directDest); true
+                        }
+                        else -> {
+                            // As a last resort, let NavigationUI try
+                            item.onNavDestinationSelected(navController)
+                        }
+                    }
+                }
+                else -> item.onNavDestinationSelected(navController)
+            }
+            if (handled) drawerLayout?.closeDrawers()
+            handled
+        }
+
+        // --- AppBarConfiguration with Drawer: hamburger on top-level destinations ---
+        appBarConfiguration = AppBarConfiguration(
+            setOf(
+                R.id.navigation_home,
+                R.id.navigation_dashboard,
+                R.id.navigation_notifications
+            ),
+            drawerLayout // hook the drawer so hamburger appears
+        )
+        setupActionBarWithNavController(navController, appBarConfiguration)
+
+        // Hide bottom nav when NOT at a top-level destination (e.g., Settings)
+        navController.addOnDestinationChangedListener { _, dest, _ ->
+            val isTopLevel = dest.id in setOf(
+                R.id.navigation_home,
+                R.id.navigation_dashboard,
+                R.id.navigation_notifications
+            )
+            binding.navView.isVisible = isTopLevel
+            if (drawerLayout?.isDrawerOpen(GravityCompat.START) == true) {
+                drawerLayout.closeDrawer(GravityCompat.START)
+            }
+        }
+
+        // Back closes drawer first; otherwise normal back
+        onBackPressedDispatcher.addCallback(this) {
+            if (drawerLayout?.isDrawerOpen(GravityCompat.START) == true) {
+                drawerLayout.closeDrawer(GravityCompat.START)
+            } else {
+                isEnabled = false
+                onBackPressedDispatcher.onBackPressed()
+            }
+        }
+
+        // === Access singletons from ScheduleApp if needed ===
+        val app = application as ScheduleApp
+
+        // === Runtime permissions ===
+        if (Build.VERSION.SDK_INT >= 33) {
+            requestNotifPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
+        }
+
+        // Exact alarms (Android 12+): open settings if not allowed
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            if (!app.alarmManager.canScheduleExactAlarms()) {
+                startActivity(
+                    Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
+                        .setData(android.net.Uri.parse("package:$packageName"))
+                )
+            }
+        }
+    }
+
+    // Hamburger / Up support
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.nav_host_fragment_activity_main)
+        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+    // ----- Options menu (Add Course) -----
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_actions, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_add_course -> {
+                showAddCourseDialog()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    // ----- Add Course dialog -----
+    @SuppressLint("SetTextI18n")
+    fun showAddCourseDialog() {
+        val app = application as ScheduleApp
+        val dao = app.db.courseDao()
+        val scheduler = ReminderScheduler(this, app.alarmManager)
+        val b = DialogAddCourseBinding.inflate(layoutInflater)
+
+        // Day spinner
+        val days = resources.getStringArray(R.array.days_of_week).toList()
+        b.spDay.adapter =
+            ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, days)
+
+        var startTime: LocalTime? = null
+        var endTime: LocalTime? = null
+
+        b.btnStartTime.setOnClickListener {
+            val now = LocalTime.now()
+            TimePickerDialog(this, { _, h, m ->
+                startTime = LocalTime.of(h, m)
+                b.btnStartTime.text = "Start: %02d:%02d".format(h, m)
+            }, now.hour, now.minute, true).show()
+        }
+
+        b.btnEndTime.setOnClickListener {
+            val now = LocalTime.now().plusMinutes(50)
+            TimePickerDialog(this, { _, h, m ->
+                endTime = LocalTime.of(h, m)
+                b.btnEndTime.text = "End: %02d:%02d".format(h, m)
+            }, now.hour, now.minute, true).show()
+        }
+
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle("Add course")
+            .setView(b.root)
+            .setNegativeButton("Cancel", null)
+            .setPositiveButton("Save") { _, _ ->
+                val title = b.etTitle.text.toString().trim()
+                val location = b.etLocation.text.toString().trim().ifBlank { null }
+                val reminderMin = b.etReminder.text.toString().toIntOrNull() ?: 10
+                val dayIdx = b.spDay.selectedItemPosition // 0..6
+                val dayOfWeek = DayOfWeek.of(((dayIdx + 1 - 1) % 7) + 1)
+
+                val st = startTime ?: run {
+                    Toast.makeText(this, "Pick a start time", Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+                val et = endTime ?: run {
+                    Toast.makeText(this, "Pick an end time", Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+                if (title.isBlank()) {
+                    Toast.makeText(this, "Please enter a title", Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+                if (!et.isAfter(st)) {
+                    Toast.makeText(this, "End time must be after start time", Toast.LENGTH_SHORT)
+                        .show()
+                    return@setPositiveButton
+                }
+
+                val semesterStart = LocalDate.now()
+                    .with(TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY))
+
+                lifecycleScope.launch {
+                    val course = Course(
+                        title = title,
+                        location = location,
+                        dayOfWeek = dayOfWeek,
+                        startTime = st,
+                        endTime = et,
+                        semesterStart = semesterStart,
+                        totalWeeks = 16,
+                        weekFilter = WeekFilter.ALL,
+                        includedWeeks = emptySet(),
+                        reminderMinutesBefore = reminderMin
+                    )
+                    val id = dao.upsert(course)
+                    val saved = course.copy(id = id)
+
+                    // Schedule if allowed on this OS level OR exact-alarms capability present
+                    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S ||
+                        app.alarmManager.canScheduleExactAlarms()
+                    ) {
+                        scheduler.cancel(saved)
+                        scheduler.scheduleNext(saved)
+                        Toast.makeText(
+                            this@MainActivity,
+                            "Saved & scheduled",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    } else {
+                        Toast.makeText(
+                            this@MainActivity,
+                            "Saved. Enable exact alarms to schedule reminders.",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                }
+            }
+            .show()
+    }
+}
+-----END src\main\java\zhang\myapplication\MainActivity.kt-----
+
+File: src\main\java\zhang\myapplication\ScheduleApp.kt
+Lines: 118
+-----BEGIN src\main\java\zhang\myapplication\ScheduleApp.kt-----
+package zhang.myapplication
+
+import android.app.AlarmManager
+import android.app.Application
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.content.getSystemService
+import androidx.room.Room
+import androidx.work.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import zhang.myapplication.data.AppDatabase
+import zhang.myapplication.domain.CalendarSyncWorker
+import zhang.myapplication.util.DataStoreManager
+import java.util.concurrent.TimeUnit
+
+class ScheduleApp : Application() {
+
+    lateinit var db: AppDatabase; private set
+    lateinit var alarmManager: AlarmManager; private set
+    lateinit var dataStoreManager: DataStoreManager; private set
+
+    override fun onCreate() {
+        super.onCreate()
+
+        // Room database
+        db = Room.databaseBuilder(this, AppDatabase::class.java, "courses.db")
+            .fallbackToDestructiveMigration()
+            .build()
+
+        // System services
+        alarmManager = getSystemService(AlarmManager::class.java)
+        dataStoreManager = DataStoreManager(this)
+
+        // Create notification channels once (O+). Channels are immutable afterwards.
+        createNotificationChannels()
+
+        // Apply theme from DataStore
+        CoroutineScope(Dispatchers.Default).launch {
+            val dark = dataStoreManager.darkThemeEnabled.first()
+            AppCompatDelegate.setDefaultNightMode(
+                if (dark) AppCompatDelegate.MODE_NIGHT_YES else AppCompatDelegate.MODE_NIGHT_NO
+            )
+        }
+
+        // Periodic calendar sync (user can toggle in Settings; worker checks before doing work)
+        scheduleDailyCalendarSync()
+    }
+
+    private fun scheduleDailyCalendarSync() {
+        val request = PeriodicWorkRequestBuilder<CalendarSyncWorker>(1, TimeUnit.DAYS)
+            .setConstraints(
+                Constraints.Builder()
+                    .setRequiresBatteryNotLow(true)
+                    .build()
+            )
+            .build()
+
+        WorkManager.getInstance(this).enqueueUniquePeriodicWork(
+            "calendar_sync",
+            ExistingPeriodicWorkPolicy.KEEP,
+            request
+        )
+    }
+
+    private fun createNotificationChannels() {
+        val nm = getSystemService<NotificationManager>() ?: return
+        if (android.os.Build.VERSION.SDK_INT < 26) return
+
+        // --- LOUD channel (alarm sound + vibration) ---
+        if (nm.getNotificationChannel(CH_REMINDERS_LOUD) == null) {
+            val ch = NotificationChannel(
+                CH_REMINDERS_LOUD,
+                "Course reminders (Loud)",
+                NotificationManager.IMPORTANCE_HIGH
+            ).apply {
+                description = "Alerts before each class (sound + vibration)"
+                enableVibration(true)
+                vibrationPattern = longArrayOf(0, 400, 200, 600)
+                setSound(
+                    android.media.RingtoneManager.getDefaultUri(
+                        android.media.RingtoneManager.TYPE_ALARM
+                    ),
+                    android.media.AudioAttributes.Builder()
+                        .setUsage(android.media.AudioAttributes.USAGE_ALARM)
+                        .setContentType(android.media.AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                        .build()
+                )
+                lockscreenVisibility = Notification.VISIBILITY_PUBLIC
+            }
+            nm.createNotificationChannel(ch)
+        }
+
+        // --- SILENT channel (no sound/vibration) ---
+        if (nm.getNotificationChannel(CH_REMINDERS_SILENT) == null) {
+            val ch = NotificationChannel(
+                CH_REMINDERS_SILENT,
+                "Course reminders (Silent)",
+                NotificationManager.IMPORTANCE_DEFAULT
+            ).apply {
+                description = "Alerts without sound/vibration"
+                enableVibration(false)
+                setSound(null, null)
+                lockscreenVisibility = Notification.VISIBILITY_PUBLIC
+            }
+            nm.createNotificationChannel(ch)
+        }
+    }
+
+    companion object {
+        // Keep these in sync with ReminderReceiver
+        const val CH_REMINDERS_LOUD = "course_reminders_loud_v2"
+        const val CH_REMINDERS_SILENT = "course_reminders_silent_v1"
+    }
+}
+-----END src\main\java\zhang\myapplication\ScheduleApp.kt-----
+
+File: src\main\java\zhang\myapplication\data\AppDatabase.kt
+Lines: 11
+-----BEGIN src\main\java\zhang\myapplication\data\AppDatabase.kt-----
+package zhang.myapplication.data
+
+import androidx.room.Database
+import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
+
+@Database(entities = [Course::class], version = 1, exportSchema = false)
+@TypeConverters(Converters::class)
+abstract class AppDatabase : RoomDatabase() {
+    abstract fun courseDao(): CourseDao
+}
+
+-----END src\main\java\zhang\myapplication\data\AppDatabase.kt-----
+
+File: src\main\java\zhang\myapplication\data\Converters.kt
+Lines: 21
+-----BEGIN src\main\java\zhang\myapplication\data\Converters.kt-----
+package zhang.myapplication.data
+
+import androidx.room.TypeConverter
+import java.time.DayOfWeek
+import java.time.LocalDate
+import java.time.LocalTime
+
+class Converters {
+    @TypeConverter
+    fun dowToInt(d: DayOfWeek) = d.value
+    @TypeConverter fun intToDow(v: Int) = DayOfWeek.of(v)
+    @TypeConverter fun ltToStr(t: LocalTime) = t.toString()
+    @TypeConverter fun strToLt(s: String) = LocalTime.parse(s)
+    @TypeConverter fun ldToStr(d: LocalDate) = d.toString()
+    @TypeConverter fun strToLd(s: String) = LocalDate.parse(s)
+    @TypeConverter fun setToStr(set: Set<Int>) = set.joinToString(",")
+    @TypeConverter fun strToSet(s: String) =
+        if (s.isBlank()) emptySet() else s.split(",").map { it.trim().toInt() }.toSet()
+    @TypeConverter fun wfToStr(w: WeekFilter) = w.name
+    @TypeConverter fun strToWf(s: String) = WeekFilter.valueOf(s)
+}
+
+-----END src\main\java\zhang\myapplication\data\Converters.kt-----
+
+File: src\main\java\zhang\myapplication\data\Course.kt
+Lines: 24
+-----BEGIN src\main\java\zhang\myapplication\data\Course.kt-----
+package zhang.myapplication.data
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import java.time.DayOfWeek
+import java.time.LocalDate
+import java.time.LocalTime
+
+@Entity
+data class Course(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0L,
+    val title: String,
+    val location: String? = null,
+    val color: Int = 0xFF80DEEA.toInt(),
+    val dayOfWeek: DayOfWeek,
+    val startTime: LocalTime,
+    val endTime: LocalTime,
+    val semesterStart: LocalDate,
+    val totalWeeks: Int = 14,
+    val weekFilter: WeekFilter = WeekFilter.ALL,
+    val includedWeeks: Set<Int> = emptySet(),
+    val reminderMinutesBefore: Int = 10
+)
+enum class WeekFilter { ALL, ODD, EVEN }
+
+-----END src\main\java\zhang\myapplication\data\Course.kt-----
+
+File: src\main\java\zhang\myapplication\data\CourseDao.kt
+Lines: 27
+-----BEGIN src\main\java\zhang\myapplication\data\CourseDao.kt-----
+package zhang.myapplication.data
+
+import androidx.room.*
+import kotlinx.coroutines.flow.Flow
+
+@Dao
+interface CourseDao {
+
+    @Query("SELECT * FROM Course")
+    fun observeAll(): Flow<List<Course>>
+
+    @Query("SELECT * FROM Course")
+    suspend fun getAll(): List<Course>
+
+    // NEW: fetch single course for ReminderReceiver chaining
+    @Query("SELECT * FROM Course WHERE id = :id LIMIT 1")
+    suspend fun getById(id: Long): Course?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsert(course: Course): Long
+
+    @Delete
+    suspend fun delete(course: Course)
+
+    // NEW: remove all courses (used by Settings import to REPLACE)
+    @Query("DELETE FROM Course")
+    suspend fun deleteAll()
+}
+-----END src\main\java\zhang\myapplication\data\CourseDao.kt-----
+
+File: src\main\java\zhang\myapplication\domain\CalendarSyncHelper.kt
+Lines: 145
+-----BEGIN src\main\java\zhang\myapplication\domain\CalendarSyncHelper.kt-----
+package zhang.myapplication.domain
+
+import android.content.ContentValues
+import android.content.Context
+import android.content.pm.PackageManager
+import android.provider.CalendarContract
+import android.provider.CalendarContract.Calendars
+import android.provider.CalendarContract.Events
+import android.util.Log
+import androidx.core.content.ContextCompat
+import zhang.myapplication.data.Course
+import java.time.ZonedDateTime
+
+/**
+ * Pushes the next few occurrences of courses into the user's calendar.
+ * Picks a *visible, writable* calendar (OEM-safe) instead of relying on IS_PRIMARY.
+ */
+class CalendarSyncHelper(private val context: Context) {
+
+    /**
+     * Sync the next occurrences within [lookaheadDays] for the given [courses].
+     * Returns the number of events inserted.
+     */
+    fun syncCoursesToCalendar(courses: List<Course>, lookaheadDays: Long = 3): Int {
+        // Double-check permissions (caller should have asked already).
+        val hasRead = ContextCompat.checkSelfPermission(
+            context, android.Manifest.permission.READ_CALENDAR
+        ) == PackageManager.PERMISSION_GRANTED
+        val hasWrite = ContextCompat.checkSelfPermission(
+            context, android.Manifest.permission.WRITE_CALENDAR
+        ) == PackageManager.PERMISSION_GRANTED
+        if (!hasRead || !hasWrite) {
+            Log.w(TAG, "Missing calendar permissions; aborting sync")
+            return 0
+        }
+
+        val calendarId = pickWritableCalendarId() ?: run {
+            Log.w(TAG, "No visible writable calendar found")
+            return 0
+        }
+
+        val now = ZonedDateTime.now()
+        val cutoff = now.plusDays(lookaheadDays)
+
+        // Delete our old upcoming events to avoid duplicates (tag via DESCRIPTION)
+        try {
+            val deleteWhere =
+                "${Events.DTSTART} >= ? AND ${Events.CALENDAR_ID} = ? AND ${Events.DESCRIPTION} = ?"
+            val deleteArgs = arrayOf(
+                now.toInstant().toEpochMilli().toString(),
+                calendarId.toString(),
+                TAG_DESC
+            )
+            val del = context.contentResolver.delete(Events.CONTENT_URI, deleteWhere, deleteArgs)
+            Log.d(TAG, "Deleted $del old events")
+        } catch (se: SecurityException) {
+            Log.e(TAG, "SecurityException on delete", se)
+        }
+
+        var inserted = 0
+        for (course in courses) {
+            val next = nextOccurrence(course, now) ?: continue
+            if (next.isAfter(cutoff)) continue
+
+            // Use the real course duration; if not stored, fall back to 50 minutes
+            val end = next.withHour(course.endTime.hour).withMinute(course.endTime.minute)
+            val endZdt = if (end.isAfter(next)) end else next.plusMinutes(50)
+
+            val startMillis = next.toInstant().toEpochMilli()
+            val endMillis = endZdt.toInstant().toEpochMilli()
+
+            val values = ContentValues().apply {
+                put(Events.CALENDAR_ID, calendarId)
+                put(Events.DTSTART, startMillis)
+                put(Events.DTEND, endMillis)
+                put(Events.TITLE, course.title)
+                put(Events.EVENT_LOCATION, course.location ?: "")
+                put(Events.EVENT_TIMEZONE, next.zone.id)
+                put(Events.DESCRIPTION, TAG_DESC)
+            }
+
+            try {
+                val uri = context.contentResolver.insert(Events.CONTENT_URI, values)
+                if (uri != null) {
+                    inserted++
+                }
+            } catch (se: SecurityException) {
+                Log.e(TAG, "SecurityException on insert", se)
+            }
+        }
+
+        Log.i(TAG, "Inserted $inserted events into calendarId=$calendarId")
+        return inserted
+    }
+
+    /**
+     * Pick a *visible, writable* calendar. Prefer calendars whose access level
+     * is >= CAL_ACCESS_CONTRIBUTOR; otherwise fall back to any visible calendar.
+     */
+    private fun pickWritableCalendarId(): Long? {
+        // First pass: visible + writable (access level >= contributor)
+        val writable = queryCalendars(
+            selection = "${Calendars.VISIBLE}=? AND ${Calendars.CALENDAR_ACCESS_LEVEL}>=?",
+            args = arrayOf("1", Calendars.CAL_ACCESS_CONTRIBUTOR.toString())
+        )
+        if (writable != null) return writable
+
+        // Fallback: any visible calendar
+        return queryCalendars(
+            selection = "${Calendars.VISIBLE}=?",
+            args = arrayOf("1")
+        )
+    }
+
+    private fun queryCalendars(selection: String, args: Array<String>): Long? {
+        val projection = arrayOf(
+            Calendars._ID,
+            Calendars.CALENDAR_DISPLAY_NAME,
+            Calendars.CALENDAR_ACCESS_LEVEL,
+            Calendars.VISIBLE
+        )
+        val cursor = context.contentResolver.query(
+            Calendars.CONTENT_URI,
+            projection,
+            selection,
+            args,
+            null
+        )
+        cursor?.use {
+            while (it.moveToNext()) {
+                val id = it.getLong(0)
+                val name = it.getString(1) ?: ""
+                val level = it.getInt(2)
+                val vis = it.getInt(3)
+                Log.d(TAG, "Calendar candidate: id=$id, name=$name, level=$level, visible=$vis")
+                return id
+            }
+        }
+        return null
+    }
+
+    companion object {
+        private const val TAG = "CalendarSync"
+        private const val TAG_DESC = "CourseReminder"
+    }
+}
+-----END src\main\java\zhang\myapplication\domain\CalendarSyncHelper.kt-----
+
+File: src\main\java\zhang\myapplication\domain\CalendarSyncWorker.kt
+Lines: 39
+-----BEGIN src\main\java\zhang\myapplication\domain\CalendarSyncWorker.kt-----
+package zhang.myapplication.domain
+
+import android.Manifest
+import android.content.Context
+import android.content.pm.PackageManager
+import androidx.core.content.ContextCompat
+import androidx.work.CoroutineWorker
+import androidx.work.WorkerParameters
+import kotlinx.coroutines.flow.first
+import zhang.myapplication.ScheduleApp
+
+class CalendarSyncWorker(
+    private val ctx: Context,
+    params: WorkerParameters
+) : CoroutineWorker(ctx, params) {
+
+    override suspend fun doWork(): Result {
+        // Check *both* permissions to avoid SecurityException on OEMs
+        val hasRead = ContextCompat.checkSelfPermission(
+            ctx, Manifest.permission.READ_CALENDAR
+        ) == PackageManager.PERMISSION_GRANTED
+        val hasWrite = ContextCompat.checkSelfPermission(
+            ctx, Manifest.permission.WRITE_CALENDAR
+        ) == PackageManager.PERMISSION_GRANTED
+        if (!hasRead || !hasWrite) return Result.retry() // nicer after user grants
+
+        val app = ctx.applicationContext as ScheduleApp
+        val dataStore = app.dataStoreManager
+
+        // Respect user's auto-sync preference
+        val isEnabled = dataStore.autoSyncEnabled.first()
+        if (!isEnabled) return Result.success()
+
+        val dao = app.db.courseDao()
+        val courses = dao.getAll()
+        CalendarSyncHelper(ctx).syncCoursesToCalendar(courses, lookaheadDays = 3)
+        return Result.success()
+    }
+}
+
+-----END src\main\java\zhang\myapplication\domain\CalendarSyncWorker.kt-----
+
+File: src\main\java\zhang\myapplication\domain\NextOccurrence.kt
+Lines: 37
+-----BEGIN src\main\java\zhang\myapplication\domain\NextOccurrence.kt-----
+package zhang.myapplication.domain
+
+import zhang.myapplication.data.Course
+import zhang.myapplication.data.WeekFilter
+import java.time.*
+
+/** Finds the next occurrence strictly after `from`. */
+fun nextOccurrence(course: Course, from: ZonedDateTime = ZonedDateTime.now()): ZonedDateTime? {
+    val zone = from.zone
+    val startOfWeekMonday = from
+        .with(LocalTime.MIN)
+        .with(java.time.temporal.TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY))
+        .toLocalDate()
+
+    // Look ahead up to 52 weeks (safety)
+    for (offset in 0 until 52) {
+        val weekStart = startOfWeekMonday.plusWeeks(offset.toLong())
+        val dateForCourse = weekStart.with(course.dayOfWeek)
+
+        val weekIndex = ((java.time.temporal.ChronoUnit.DAYS
+            .between(course.semesterStart, dateForCourse)) / 7).toInt() + 1
+
+        if (weekIndex <= 0 || weekIndex > course.totalWeeks) continue
+
+        val passesSet = course.includedWeeks.isEmpty() || weekIndex in course.includedWeeks
+        val passesOE = when (course.weekFilter) {
+            WeekFilter.ALL -> true
+            WeekFilter.ODD -> weekIndex % 2 == 1
+            WeekFilter.EVEN -> weekIndex % 2 == 0
+        }
+        if (!passesSet || !passesOE) continue
+
+        val start = ZonedDateTime.of(dateForCourse, course.startTime, zone)
+        if (start.isAfter(from)) return start
+    }
+    return null
+}
+
+-----END src\main\java\zhang\myapplication\domain\NextOccurrence.kt-----
+
+File: src\main\java\zhang\myapplication\domain\ReminderScheduler.kt
+Lines: 76
+-----BEGIN src\main\java\zhang\myapplication\domain\ReminderScheduler.kt-----
+package zhang.myapplication.domain
+
+import android.app.AlarmManager
+import android.app.PendingIntent
+import android.net.Uri
+import android.content.Context
+import android.content.Intent
+import android.os.Build
+import android.provider.Settings
+import zhang.myapplication.data.Course
+import zhang.myapplication.receiver.ReminderReceiver
+import java.time.ZonedDateTime
+
+
+class ReminderScheduler(
+    private val context: Context,
+    private val alarmManager: AlarmManager
+) {
+    fun scheduleNext(course: Course) {
+        val now = ZonedDateTime.now()
+        val next = nextOccurrence(course, now) ?: return
+        val triggerAt = next.minusMinutes(course.reminderMinutesBefore.toLong())
+
+        // --- Lint-friendly guard for Android 12+ ---
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            val can = try {
+                alarmManager.canScheduleExactAlarms()
+            } catch (_: SecurityException) {
+                false
+            }
+            if (!can) {
+                // Optional: deep-link to your appâ€™s Alarms & reminders screen
+                context.startActivity(
+                Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
+                .setData(Uri.parse("package:${context.packageName}"))
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                )
+                return // gracefully skip until user grants access
+            }
+        }
+
+        val intent = Intent(context, ReminderReceiver::class.java).apply {
+            putExtra("courseId", course.id)
+            putExtra("title", course.title)
+            putExtra("location", course.location ?: "")
+            putExtra("startTime", next.toString())          // ZonedDateTime ISO
+            putExtra("minutesBefore", course.reminderMinutesBefore)
+        }
+        val pi = PendingIntent.getBroadcast(
+            context,
+            course.id.toInt(),
+            intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+        try {
+            alarmManager.setExactAndAllowWhileIdle(
+                AlarmManager.RTC_WAKEUP,
+                triggerAt.toInstant().toEpochMilli(),
+                pi
+            )
+        } catch (_: SecurityException) {
+            // Permission not granted at runtime on Android 14+; skip or notify user
+        }
+    }
+
+    fun cancel(course: Course) {
+        val pi = PendingIntent.getBroadcast(
+            context,
+            course.id.toInt(),
+            Intent(context, ReminderReceiver::class.java),
+            PendingIntent.FLAG_NO_CREATE or PendingIntent.FLAG_IMMUTABLE
+        ) ?: return
+        alarmManager.cancel(pi)
+        pi.cancel()
+    }
+}
+
+-----END src\main\java\zhang\myapplication\domain\ReminderScheduler.kt-----
+
+File: src\main\java\zhang\myapplication\receiver\BootReceiver.kt
+Lines: 29
+-----BEGIN src\main\java\zhang\myapplication\receiver\BootReceiver.kt-----
+package zhang.myapplication.receiver
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import kotlinx.coroutines.*
+import zhang.myapplication.ScheduleApp
+import zhang.myapplication.domain.ReminderScheduler
+
+class BootReceiver : BroadcastReceiver() {
+    override fun onReceive(context: Context, intent: Intent) {
+        if (Intent.ACTION_BOOT_COMPLETED != intent.action) return
+
+        val pending = goAsync()
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val app = context.applicationContext as ScheduleApp
+                val dao = app.db.courseDao()
+                val scheduler = ReminderScheduler(context, app.alarmManager)
+                val courses = dao.getAll()
+                for (course in courses) {
+                    scheduler.scheduleNext(course)
+                }
+            } finally {
+                pending.finish()
+            }
+        }
+    }
+}
+
+-----END src\main\java\zhang\myapplication\receiver\BootReceiver.kt-----
+
+File: src\main\java\zhang\myapplication\receiver\ReminderReceiver.kt
+Lines: 161
+-----BEGIN src\main\java\zhang\myapplication\receiver\ReminderReceiver.kt-----
+
+package zhang.myapplication.receiver
+
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.media.AudioAttributes
+import android.media.RingtoneManager
+import android.os.Build
+import android.provider.Settings
+import androidx.core.app.NotificationCompat
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+import zhang.myapplication.MainActivity
+import zhang.myapplication.R
+import zhang.myapplication.ScheduleApp
+import zhang.myapplication.domain.ReminderScheduler
+import java.time.ZonedDateTime
+
+/**
+ * Shows the reminder notification and chains the next reminder.
+ * Now supports:
+ *  - Loud/silent channels (sound/vibration controlled by channel choice)
+ *  - Full-screen intent on Android 14+ when user has granted the special access
+ */
+class ReminderReceiver : BroadcastReceiver() {
+
+    override fun onReceive(context: Context, intent: Intent) {
+        val courseId   = intent.getLongExtra("courseId", -1L)
+        val title      = intent.getStringExtra("title") ?: "Class"
+        val location   = intent.getStringExtra("location").orEmpty()
+        val minutesBef = intent.getIntExtra("minutesBefore", 10)
+        val startZdt   = intent.getStringExtra("startTime")?.let { ZonedDateTime.parse(it) }
+
+        val app = context.applicationContext as ScheduleApp
+        val dataStore = app.dataStoreManager
+
+        // Read settings synchronously for simplicity in a receiver
+        val soundEnabled      = runBlocking { dataStore.notificationSoundEnabled.first() }
+        val vibrateEnabled    = runBlocking { dataStore.notificationVibrateEnabled.first() }
+        val fullscreenEnabled = runBlocking { dataStore.fullscreenAlertEnabled.first() }
+
+        val nm = context.getSystemService(NotificationManager::class.java)
+
+        // Decide channel by settings (channels are immutable; choose the right one at post time)
+        val channelId = if (soundEnabled || vibrateEnabled || fullscreenEnabled) {
+            CHANNEL_ID_LOUD
+        } else {
+            CHANNEL_ID_SILENT
+        }
+        ensureChannel(nm, channelId)
+
+        val text = buildString {
+            append("Starts in $minutesBef min")
+            if (startZdt != null) append(" Â· ${startZdt.toLocalTime()}")
+            if (location.isNotBlank()) append(" Â· $location")
+        }
+
+        // Content tap â†’ open app
+        val contentIntent = Intent(context, MainActivity::class.java)
+        val contentPi = PendingIntent.getActivity(
+            context, 0, contentIntent, PendingIntent.FLAG_IMMUTABLE
+        )
+
+        val builder = NotificationCompat.Builder(context, channelId)
+            .setSmallIcon(R.drawable.ic_notifications_black_24dp)
+            .setContentTitle(title)
+            .setContentText(text)
+            .setContentIntent(contentPi)
+            .setAutoCancel(true)
+            .setPriority(NotificationCompat.PRIORITY_HIGH)
+            .setCategory(NotificationCompat.CATEGORY_REMINDER)
+            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+
+        // --- Full-screen intent (Android 14+ requires special user grant) ---
+        val canFSI = if (Build.VERSION.SDK_INT >= 34) nm.canUseFullScreenIntent() else true
+        if (fullscreenEnabled && canFSI) {
+            val fsIntent = Intent(context, MainActivity::class.java)
+            val fsPi = PendingIntent.getActivity(context, 1, fsIntent, PendingIntent.FLAG_IMMUTABLE)
+            builder.setFullScreenIntent(fsPi, true)
+        } else if (Build.VERSION.SDK_INT >= 34 && fullscreenEnabled) {
+            // Offer an action to open the OS setting so the user can grant it
+            val settingsIntent =
+                Intent(Settings.ACTION_MANAGE_APP_USE_FULL_SCREEN_INTENT)
+                    .putExtra(Settings.EXTRA_APP_PACKAGE, context.packageName)
+            val settingsPi = PendingIntent.getActivity(
+                context, 2, settingsIntent, PendingIntent.FLAG_IMMUTABLE
+            )
+            builder.addAction(0, "Enable full-screen", settingsPi)
+        }
+
+        nm.notify(courseId.toInt(), builder.build())
+
+        // Chain next reminder safely on a background thread
+        val pending = goAsync()
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val dao = app.db.courseDao()
+                val course = dao.getById(courseId)
+                if (course != null) {
+                    ReminderScheduler(context, app.alarmManager).scheduleNext(course)
+                }
+            } finally {
+                pending.finish()
+            }
+        }
+    }
+
+    // region Channels
+
+    private fun ensureChannel(nm: NotificationManager, id: String) {
+        if (nm.getNotificationChannel(id) != null) return
+
+        val channel = when (id) {
+            CHANNEL_ID_LOUD -> NotificationChannel(
+                CHANNEL_ID_LOUD,
+                "Course reminders (Loud)",
+                NotificationManager.IMPORTANCE_HIGH
+            ).apply {
+                description = "Alerts before each class (sound + vibration)"
+                enableVibration(true)
+                vibrationPattern = longArrayOf(0, 400, 200, 600)
+                setSound(
+                    RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM),
+                    AudioAttributes.Builder()
+                        .setUsage(AudioAttributes.USAGE_ALARM)
+                        .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                        .build()
+                )
+                lockscreenVisibility = Notification.VISIBILITY_PUBLIC
+            }
+
+            CHANNEL_ID_SILENT -> NotificationChannel(
+                CHANNEL_ID_SILENT,
+                "Course reminders (Silent)",
+                NotificationManager.IMPORTANCE_DEFAULT
+            ).apply {
+                description = "Alerts without sound/vibration"
+                enableVibration(false)
+                setSound(null, null)
+                lockscreenVisibility = Notification.VISIBILITY_PUBLIC
+            }
+
+            else -> null
+        }
+
+        if (channel != null) nm.createNotificationChannel(channel)
+    }
+
+    companion object {
+        private const val CHANNEL_ID_LOUD = "course_reminders_loud_v2"
+        private const val CHANNEL_ID_SILENT = "course_reminders_silent_v1"
+    }
+    // endregion
+}
+-----END src\main\java\zhang\myapplication\receiver\ReminderReceiver.kt-----
+
+File: src\main\java\zhang\myapplication\ui\common\CourseListFragment.kt
+Lines: 67
+-----BEGIN src\main\java\zhang\myapplication\ui\common\CourseListFragment.kt-----
+package zhang.myapplication.ui.common
+
+import android.os.Bundle
+import android.view.*
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
+import zhang.myapplication.ScheduleApp
+import zhang.myapplication.data.Course
+import zhang.myapplication.databinding.FragmentCourseListBinding
+import zhang.myapplication.domain.ReminderScheduler
+import zhang.myapplication.ui.notifications.CoursesAdapter
+
+class CourseListFragment : Fragment() {
+    private var _binding: FragmentCourseListBinding? = null
+    private val binding get() = _binding!!
+    private lateinit var adapter: CoursesAdapter
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+        _binding = FragmentCourseListBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+        val scheduler = ReminderScheduler(requireContext(), app.alarmManager)
+
+        adapter = CoursesAdapter(
+            onClick = { /* Optional: handle click */ },
+            onLongClick = { course -> confirmDelete(course, dao, scheduler) }
+        )
+
+        binding.rvCourses.layoutManager = LinearLayoutManager(requireContext())
+        binding.rvCourses.adapter = adapter
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            dao.observeAll().collectLatest { list ->
+                adapter.submitList(list.sortedWith(compareBy({ it.dayOfWeek.value }, { it.startTime })))
+            }
+        }
+    }
+
+    private fun confirmDelete(course: Course, dao: zhang.myapplication.data.CourseDao, scheduler: ReminderScheduler) {
+        AlertDialog.Builder(requireContext())
+            .setTitle("Delete course?")
+            .setMessage("This will cancel reminders for â€œ${course.title}â€.")
+            .setNegativeButton("Cancel", null)
+            .setPositiveButton("Delete") { _, _ ->
+                viewLifecycleOwner.lifecycleScope.launch {
+                    scheduler.cancel(course)
+                    dao.delete(course)
+                    Toast.makeText(requireContext(), "Deleted", Toast.LENGTH_SHORT).show()
+                }
+            }
+            .show()
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}
+
+-----END src\main\java\zhang\myapplication\ui\common\CourseListFragment.kt-----
+
+File: src\main\java\zhang\myapplication\ui\dashboard\DashboardFragment.kt
+Lines: 114
+-----BEGIN src\main\java\zhang\myapplication\ui\dashboard\DashboardFragment.kt-----
+package zhang.myapplication.ui.dashboard
+
+import android.Manifest
+import android.annotation.SuppressLint
+import android.content.pm.PackageManager
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.content.ContextCompat
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import zhang.myapplication.ScheduleApp
+import zhang.myapplication.databinding.FragmentDashboardBinding
+import zhang.myapplication.domain.CalendarSyncHelper
+import zhang.myapplication.ui.common.CourseListFragment
+import java.time.ZonedDateTime
+
+class DashboardFragment : Fragment() {
+
+    private var _binding: FragmentDashboardBinding? = null
+    private val binding get() = _binding!!
+
+    private val requestCalendarPerms =
+        registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) { result ->
+            val read = result[Manifest.permission.READ_CALENDAR] == true
+            val write = result[Manifest.permission.WRITE_CALENDAR] == true
+            if (read && write) {
+                doManualSync()
+            } else {
+                Toast.makeText(requireContext(), "Calendar permission denied", Toast.LENGTH_SHORT).show()
+            }
+        }
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentDashboardBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    @SuppressLint("SetTextI18n")
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        val ctx = requireContext()
+        val app = requireActivity().application as ScheduleApp
+        val dataStore = app.dataStoreManager
+
+        // Reuse the course list
+        childFragmentManager.beginTransaction()
+            .replace(binding.dashboardContainer.id, CourseListFragment())
+            .commit()
+
+        // Load auto-sync status & last sync
+        viewLifecycleOwner.lifecycleScope.launch {
+            val isEnabled = dataStore.autoSyncEnabled.first()
+            val lastSync = dataStore.lastSyncTime.first()
+            binding.switchAutoSync.isChecked = isEnabled
+            binding.tvSyncStatus.text = "Auto-sync: ${if (isEnabled) "Enabled" else "Disabled"}"
+            binding.tvLastSync.text = "Last sync: $lastSync"
+        }
+
+        // Toggle auto-sync
+        binding.switchAutoSync.setOnCheckedChangeListener { _, isChecked ->
+            viewLifecycleOwner.lifecycleScope.launch {
+                dataStore.setAutoSync(isChecked)
+                binding.tvSyncStatus.text = "Auto-sync: ${if (isChecked) "Enabled" else "Disabled"}"
+            }
+        }
+
+        // Manual SYNC button
+        binding.btnSyncCalendar.setOnClickListener {
+            val hasRead = ContextCompat.checkSelfPermission(ctx, Manifest.permission.READ_CALENDAR) == PackageManager.PERMISSION_GRANTED
+            val hasWrite = ContextCompat.checkSelfPermission(ctx, Manifest.permission.WRITE_CALENDAR) == PackageManager.PERMISSION_GRANTED
+            if (!hasRead || !hasWrite) {
+                requestCalendarPerms.launch(
+                    arrayOf(
+                        Manifest.permission.READ_CALENDAR,
+                        Manifest.permission.WRITE_CALENDAR
+                    )
+                )
+                return@setOnClickListener
+            }
+            doManualSync()
+        }
+    }
+
+    @SuppressLint("SetTextI18n")
+    private fun doManualSync() {
+        val ctx = requireContext()
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+        val dataStore = app.dataStoreManager
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            val courses = dao.getAll()
+            val helper = CalendarSyncHelper(ctx)
+            val insertedCount = helper.syncCoursesToCalendar(courses, lookaheadDays = 3) // 3-day window
+            val now = ZonedDateTime.now().toString()
+            dataStore.setLastSyncTime(now)
+            binding.tvLastSync.text = "Last sync: $now"
+            Toast.makeText(ctx, "Synced $insertedCount events to calendar", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}
+-----END src\main\java\zhang\myapplication\ui\dashboard\DashboardFragment.kt-----
+
+File: src\main\java\zhang\myapplication\ui\dashboard\DashboardViewModel.kt
+Lines: 12
+-----BEGIN src\main\java\zhang\myapplication\ui\dashboard\DashboardViewModel.kt-----
+package zhang.myapplication.ui.dashboard
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class DashboardViewModel : ViewModel() {
+
+    private val _text = MutableLiveData<String>().apply {
+        value = "This is dashboard Fragment"
+    }
+    val text: LiveData<String> = _text
+}
+-----END src\main\java\zhang\myapplication\ui\dashboard\DashboardViewModel.kt-----
+
+File: src\main\java\zhang\myapplication\ui\home\HomeFragment.kt
+Lines: 89
+-----BEGIN src\main\java\zhang\myapplication\ui\home\HomeFragment.kt-----
+package zhang.myapplication.ui.home
+
+import android.annotation.SuppressLint
+import android.os.Bundle
+import android.view.*
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import zhang.myapplication.MainActivity
+import zhang.myapplication.ScheduleApp
+import zhang.myapplication.databinding.FragmentHomeBinding
+import zhang.myapplication.domain.nextOccurrence
+import java.time.*
+import java.time.format.DateTimeFormatter
+import java.util.*
+
+class HomeFragment : Fragment() {
+    private var _binding: FragmentHomeBinding? = null
+    private val binding get() = _binding!!
+    private val timeFmt: DateTimeFormatter by lazy {
+        DateTimeFormatter.ofPattern("EEE, MMM d â€¢ HH:mm", Locale.getDefault())
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    @SuppressLint("SetTextI18n")
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+        val dataStore = app.dataStoreManager
+
+        binding.btnAddCourse.setOnClickListener {
+            (requireActivity() as? MainActivity)?.showAddCourseDialog()
+        }
+
+        // Show theme and notification settings
+        lifecycleScope.launch {
+            val darkTheme = dataStore.darkThemeEnabled.first()
+            val sound = dataStore.notificationSoundEnabled.first()
+            val vibrate = dataStore.notificationVibrateEnabled.first()
+            val fullscreen = dataStore.fullscreenAlertEnabled.first()
+
+            binding.tvNextTitle.text = "Theme: ${if (darkTheme) "Dark" else "Light"}"
+            binding.tvNextMeta.text = "Sound: ${if (sound) "On" else "Off"}, Vibration: ${if (vibrate) "On" else "Off"}"
+            binding.tvNextCountdown.text = "Fullscreen Alerts: ${if (fullscreen) "Enabled" else "Disabled"}"
+        }
+
+        // Show next upcoming class
+        viewLifecycleOwner.lifecycleScope.launch {
+            dao.observeAll().collect { list ->
+                val now = ZonedDateTime.now()
+                val nextPair = list.mapNotNull { course ->
+                    val next = nextOccurrence(course, now)
+                    if (next != null) course to next else null
+                }.minByOrNull { it.second.toInstant() }
+
+                if (nextPair == null) return@collect
+
+                val (course, startZdt) = nextPair
+                val minutesBefore = course.reminderMinutesBefore
+                val triggerAt = startZdt.minusMinutes(minutesBefore.toLong())
+                val target = if (triggerAt.isAfter(now)) triggerAt else startZdt
+                val dur = Duration.between(now, target)
+                val mins = dur.toMinutes()
+                val hours = mins / 60
+                val remMins = mins % 60
+
+                binding.tvNextTitle.text = course.title
+                val locPart = if (course.location.isNullOrBlank()) "" else " â€¢ ${course.location}"
+                binding.tvNextMeta.text = "${startZdt.format(timeFmt)}$locPart"
+                binding.tvNextCountdown.text = when {
+                    mins <= 0 -> "Starting now"
+                    hours <= 0 -> "Starts in $mins min"
+                    else -> "Starts in $hours h $remMins min"
+                }
+            }
+        }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}
+-----END src\main\java\zhang\myapplication\ui\home\HomeFragment.kt-----
+
+File: src\main\java\zhang\myapplication\ui\home\HomeViewModel.kt
+Lines: 12
+-----BEGIN src\main\java\zhang\myapplication\ui\home\HomeViewModel.kt-----
+package zhang.myapplication.ui.home
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class HomeViewModel : ViewModel() {
+
+    private val _text = MutableLiveData<String>().apply {
+        value = "This is home Fragment"
+    }
+    val text: LiveData<String> = _text
+}
+-----END src\main\java\zhang\myapplication\ui\home\HomeViewModel.kt-----
+
+File: src\main\java\zhang\myapplication\ui\notifications\CoursesAdapter.kt
+Lines: 49
+-----BEGIN src\main\java\zhang\myapplication\ui\notifications\CoursesAdapter.kt-----
+package zhang.myapplication.ui.notifications
+
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
+import androidx.recyclerview.widget.RecyclerView
+import zhang.myapplication.R
+import zhang.myapplication.data.Course
+import java.time.format.DateTimeFormatter
+
+class CoursesAdapter(
+    private val onClick: (Course) -> Unit,
+    private val onLongClick: (Course) -> Unit
+) : ListAdapter<Course, CoursesAdapter.VH>(DIFF) {
+
+    companion object {
+        private val timeFmt = DateTimeFormatter.ofPattern("HH:mm")
+        private val DIFF = object : DiffUtil.ItemCallback<Course>() {
+            override fun areItemsTheSame(oldItem: Course, newItem: Course) = oldItem.id == newItem.id
+            override fun areContentsTheSame(oldItem: Course, newItem: Course) = oldItem == newItem
+        }
+    }
+
+    inner class VH(v: View) : RecyclerView.ViewHolder(v) {
+        private val tvTitle = v.findViewById<TextView>(R.id.tvTitle)
+        private val tvDay = v.findViewById<TextView>(R.id.tvDay)
+        private val tvTime = v.findViewById<TextView>(R.id.tvTime)
+        private val tvLocation = v.findViewById<TextView>(R.id.tvLocation)
+
+        fun bind(c: Course) {
+            tvTitle.text = c.title
+            tvDay.text = c.dayOfWeek.name.take(3) // MON, TUE ...
+            tvTime.text = "${c.startTime.format(timeFmt)}â€“${c.endTime.format(timeFmt)}"
+            tvLocation.text = c.location ?: ""
+            itemView.setOnClickListener { onClick(c) }
+            itemView.setOnLongClickListener { onLongClick(c); true }
+        }
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
+        val v = LayoutInflater.from(parent.context).inflate(R.layout.item_course, parent, false)
+        return VH(v)
+    }
+
+    override fun onBindViewHolder(holder: VH, position: Int) = holder.bind(getItem(position))
+}
+
+-----END src\main\java\zhang\myapplication\ui\notifications\CoursesAdapter.kt-----
+
+File: src\main\java\zhang\myapplication\ui\notifications\NotificationsFragment.kt
+Lines: 202
+-----BEGIN src\main\java\zhang\myapplication\ui\notifications\NotificationsFragment.kt-----
+package zhang.myapplication.ui.notifications
+
+import android.annotation.SuppressLint
+import android.app.TimePickerDialog
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import android.provider.Settings
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ArrayAdapter
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
+import zhang.myapplication.ScheduleApp
+import zhang.myapplication.R
+import zhang.myapplication.data.Course
+import zhang.myapplication.data.WeekFilter
+import zhang.myapplication.databinding.DialogAddCourseBinding
+import zhang.myapplication.databinding.FragmentNotificationsBinding
+import zhang.myapplication.domain.ReminderScheduler
+import java.time.DayOfWeek
+import java.time.LocalDate
+import java.time.LocalTime
+
+class NotificationsFragment : Fragment() {
+
+    private var _binding: FragmentNotificationsBinding? = null
+    private val binding get() = _binding!!
+    private lateinit var adapter: CoursesAdapter
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        adapter = CoursesAdapter(
+            onClick = { course -> showAddOrEditDialog(course) },
+            onLongClick = { course -> confirmDelete(course) }
+        )
+        binding.rvCourses.layoutManager = LinearLayoutManager(requireContext())
+        binding.rvCourses.adapter = adapter
+
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+
+        // Observe all courses and display (sorted by day, then start time)
+        viewLifecycleOwner.lifecycleScope.launch {
+            dao.observeAll().collectLatest { list ->
+                val sorted = list.sortedWith(
+                    compareBy<Course> { it.dayOfWeek.value }.thenBy { it.startTime }
+                )
+                adapter.submitList(sorted)
+            }
+        }
+    }
+
+    private fun confirmDelete(course: Course) {
+        AlertDialog.Builder(requireContext())
+            .setTitle("Delete course?")
+            .setMessage("This will cancel upcoming reminders for â€œ${course.title}â€.")
+            .setNegativeButton("Cancel", null)
+            .setPositiveButton("Delete") { _, _ ->
+                val app = requireActivity().application as ScheduleApp
+                val scheduler = ReminderScheduler(requireContext(), app.alarmManager)
+                viewLifecycleOwner.lifecycleScope.launch {
+                    scheduler.cancel(course)
+                    app.db.courseDao().delete(course)
+                    Toast.makeText(requireContext(), "Deleted", Toast.LENGTH_SHORT).show()
+                }
+            }
+            .show()
+    }
+
+    /** If [existing] is null â†’ Add; else Edit (prefilled). */
+    @SuppressLint("SetTextI18n")
+    private fun showAddOrEditDialog(existing: Course? = null) {
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+        val scheduler = ReminderScheduler(requireContext(), app.alarmManager)
+        val b = DialogAddCourseBinding.inflate(layoutInflater)
+
+        // Prepare day spinner
+        val days = resources.getStringArray(R.array.days_of_week).toList()
+        b.spDay.adapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_dropdown_item, days)
+
+        // Prefill if editing
+        var startTime: LocalTime? = existing?.startTime
+        var endTime: LocalTime? = existing?.endTime
+        if (existing != null) {
+            b.etTitle.setText(existing.title)
+            b.etLocation.setText(existing.location ?: "")
+            b.etReminder.setText(existing.reminderMinutesBefore.toString())
+            b.spDay.setSelection(existing.dayOfWeek.value - 1)
+            b.btnStartTime.text = "Start: ${existing.startTime}"
+            b.btnEndTime.text = "End: ${existing.endTime}"
+        }
+
+        // Time pickers
+        b.btnStartTime.setOnClickListener {
+            val now = startTime ?: LocalTime.now()
+            TimePickerDialog(requireContext(), { _, h, m ->
+                startTime = LocalTime.of(h, m)
+                b.btnStartTime.text = "Start: %02d:%02d".format(h, m)
+            }, now.hour, now.minute, true).show()
+        }
+        b.btnEndTime.setOnClickListener {
+            val now = endTime ?: (startTime ?: LocalTime.now()).plusMinutes(50)
+            TimePickerDialog(requireContext(), { _, h, m ->
+                endTime = LocalTime.of(h, m)
+                b.btnEndTime.text = "End: %02d:%02d".format(h, m)
+            }, now.hour, now.minute, true).show()
+        }
+
+        AlertDialog.Builder(requireContext())
+            .setTitle(if (existing == null) "Add course" else "Edit course")
+            .setView(b.root)
+            .setNegativeButton("Cancel", null)
+            .setPositiveButton("Save") { _, _ ->
+                val title = b.etTitle.text.toString().trim()
+                val location = b.etLocation.text.toString().trim().ifBlank { null }
+                val reminderMin = b.etReminder.text.toString().toIntOrNull() ?: 10
+                val dayIdx = b.spDay.selectedItemPosition
+                val dayOfWeek = DayOfWeek.of(dayIdx + 1)
+
+                val st = startTime ?: run {
+                    Toast.makeText(requireContext(), "Pick a start time", Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+                val et = endTime ?: run {
+                    Toast.makeText(requireContext(), "Pick an end time", Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+                if (title.isBlank()) {
+                    Toast.makeText(requireContext(), "Please enter a title", Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+                if (!et.isAfter(st)) {
+                    Toast.makeText(requireContext(), "End time must be after start time", Toast.LENGTH_SHORT).show()
+                    return@setPositiveButton
+                }
+
+                viewLifecycleOwner.lifecycleScope.launch {
+                    val semesterStart = existing?.semesterStart ?: LocalDate.now()
+                        .with(java.time.temporal.TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY))
+
+                    val updated = (existing ?: Course(
+                        title = title,
+                        location = location,
+                        dayOfWeek = dayOfWeek,
+                        startTime = st,
+                        endTime = et,
+                        semesterStart = semesterStart,
+                        totalWeeks = 16,
+                        weekFilter = WeekFilter.ALL,
+                        includedWeeks = emptySet(),
+                        reminderMinutesBefore = reminderMin
+                    )).copy(
+                        title = title,
+                        location = location,
+                        dayOfWeek = dayOfWeek,
+                        startTime = st,
+                        endTime = et,
+                        reminderMinutesBefore = reminderMin
+                    )
+
+                    // Persist
+                    val id = if (existing == null) dao.upsert(updated) else {
+                        dao.upsert(updated.copy(id = existing.id))
+                    }
+                    val saved = updated.copy(id = if (existing == null) id else existing.id)
+
+                    // Schedule/cancel
+                    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S ||
+                        app.alarmManager.canScheduleExactAlarms()
+                    ) {
+                        scheduler.cancel(saved) // prevent duplicates
+                        scheduler.scheduleNext(saved)
+                        Toast.makeText(requireContext(), "Saved & scheduled", Toast.LENGTH_SHORT).show()
+                    } else {
+                        // Optional: deep link to exact-alarms settings
+                        startActivity(
+                            Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
+                                .setData(android.net.Uri.parse("package:${requireContext().packageName}"))
+                        )
+                        Toast.makeText(requireContext(), "Saved. Enable exact alarms to schedule.", Toast.LENGTH_LONG).show()
+                    }
+                }
+            }
+            .show()
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}
+-----END src\main\java\zhang\myapplication\ui\notifications\NotificationsFragment.kt-----
+
+File: src\main\java\zhang\myapplication\ui\notifications\NotificationsViewModel.kt
+Lines: 12
+-----BEGIN src\main\java\zhang\myapplication\ui\notifications\NotificationsViewModel.kt-----
+package zhang.myapplication.ui.notifications
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class NotificationsViewModel : ViewModel() {
+
+    private val _text = MutableLiveData<String>().apply {
+        value = "This is notifications Fragment"
+    }
+    val text: LiveData<String> = _text
+}
+-----END src\main\java\zhang\myapplication\ui\notifications\NotificationsViewModel.kt-----
+
+File: src\main\java\zhang\myapplication\ui\screens\EditCourseScreen.kt
+Lines: 301
+-----BEGIN src\main\java\zhang\myapplication\ui\screens\EditCourseScreen.kt-----
+
+package zhang.myapplication.ui.screens
+
+import android.annotation.SuppressLint
+import android.graphics.Color
+import android.os.Bundle
+import android.view.*
+import android.widget.*
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.Fragment
+import androidx.gridlayout.widget.GridLayout
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
+import zhang.myapplication.R
+import zhang.myapplication.ScheduleApp
+import zhang.myapplication.data.Course
+import zhang.myapplication.data.WeekFilter
+import java.time.*
+
+class EditCourseScreen : Fragment() {
+    private lateinit var grid: GridLayout
+    private lateinit var weekFilterSpinner: Spinner
+    private lateinit var colorSpinner: Spinner
+    private lateinit var durationSpinner: Spinner
+    private lateinit var previewBlock: TextView
+    private lateinit var saveButton: Button
+    private lateinit var undoButton: Button
+    private lateinit var resetButton: Button
+    private lateinit var courseListText: TextView
+    private val blockViews = mutableListOf<TextView>()
+    private val courseData = mutableMapOf<TextView, Course>()
+
+    @SuppressLint("SetTextI18n")
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+        val view = inflater.inflate(R.layout.fragment_edit_course_screen, container, false)
+
+        grid = view.findViewById(R.id.timetableGrid)
+        weekFilterSpinner = view.findViewById(R.id.spWeekFilter)
+        colorSpinner = view.findViewById(R.id.spColor)
+        durationSpinner = view.findViewById(R.id.spDuration)
+        previewBlock = view.findViewById(R.id.previewBlock)
+        saveButton = Button(requireContext()).apply {
+            text = "Save All"
+            setOnClickListener { saveAllCourses() }
+        }
+        undoButton = view.findViewById(R.id.btnUndo)
+        resetButton = view.findViewById(R.id.btnReset)
+        courseListText = view.findViewById(R.id.tvCourseList)
+        undoButton.setOnClickListener { undoLastBlock() }
+        resetButton.setOnClickListener { resetAllBlocks() }
+
+        (grid.parent as LinearLayout).addView(saveButton)
+
+        setupSpinners()
+        setupPreviewBlock()
+        setupGrid()
+        loadExistingCourses()
+
+        return view
+    }
+
+    private fun setupSpinners() {
+        weekFilterSpinner.adapter = ArrayAdapter(requireContext(),
+            android.R.layout.simple_spinner_dropdown_item,
+            listOf("All", "Odd", "Even"))
+
+        colorSpinner.adapter = ArrayAdapter(requireContext(),
+            android.R.layout.simple_spinner_dropdown_item,
+            listOf("Cyan", "Green", "Yellow", "Red"))
+
+        durationSpinner.adapter = ArrayAdapter(requireContext(),
+            android.R.layout.simple_spinner_dropdown_item,
+            listOf("50", "60", "90", "120"))
+    }
+
+    @SuppressLint("ClickableViewAccessibility")
+    private fun setupPreviewBlock() {
+        updatePreviewBlock()
+        previewBlock.setOnTouchListener { v, event ->
+            if (event.action == MotionEvent.ACTION_DOWN) {
+                val shadow = View.DragShadowBuilder(v)
+                v.startDragAndDrop(null, shadow, v, 0)
+            }
+            true
+        }
+    }
+
+    private fun updatePreviewBlock() {
+        val color = when (colorSpinner.selectedItem.toString()) {
+            "Green" -> Color.GREEN
+            "Yellow" -> Color.YELLOW
+            "Red" -> Color.RED
+            else -> Color.CYAN
+        }
+        previewBlock.setBackgroundColor(color)
+    }
+
+    private fun setupGrid() {
+        val days = listOf("Time", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+        for (row in 0..24) {
+            for (col in 0..7) {
+                val cell = TextView(requireContext()).apply {
+                    setPadding(8, 8, 8, 8)
+                    gravity = Gravity.CENTER
+                    setBackgroundColor(if (row == 0 || col == 0) Color.DKGRAY else Color.LTGRAY)
+                    setTextColor(Color.WHITE)
+                    textSize = 12f
+                    text = when {
+                        row == 0 -> days.getOrNull(col) ?: ""
+                        col == 0 -> "%02d:00".format(row - 1)
+                        else -> ""
+                    }
+                    if (row > 0 && col > 0) {
+                        setOnDragListener(dragListener)
+                    }
+                }
+
+                val params = GridLayout.LayoutParams().apply {
+                    rowSpec = GridLayout.spec(row, 1f)
+                    columnSpec = GridLayout.spec(col, 1f)
+                    width = 0
+                    height = 120
+                    setMargins(2, 2, 2, 2)
+                }
+                grid.addView(cell, params)
+            }
+        }
+    }
+
+    private val dragListener = View.OnDragListener { target, event ->
+        when (event.action) {
+            DragEvent.ACTION_DROP -> {
+                val dragged = event.localState as TextView
+                (dragged.parent as? ViewGroup)?.removeView(dragged)
+                (target as ViewGroup).addView(dragged)
+                val course = createCourseFromDrop(target, dragged.text.toString())
+                courseData[dragged] = course
+                blockViews.add(dragged)
+                true
+            }
+            else -> true
+        }
+    }
+
+    private fun createCourseFromDrop(target: View, title: String): Course {
+        val index = grid.indexOfChild(target)
+        val row = index / 8
+        val col = index % 8
+        val day = DayOfWeek.of(col)
+        val start = LocalTime.of(row - 1, 0)
+
+        val duration = durationSpinner.selectedItem.toString().toInt()
+        val end = start.plusMinutes(duration.toLong())
+
+        val weekFilter = when (weekFilterSpinner.selectedItem.toString()) {
+            "Odd" -> WeekFilter.ODD
+            "Even" -> WeekFilter.EVEN
+            else -> WeekFilter.ALL
+        }
+
+        val color = when (colorSpinner.selectedItem.toString()) {
+            "Green" -> Color.GREEN
+            "Yellow" -> Color.YELLOW
+            "Red" -> Color.RED
+            else -> Color.CYAN
+        }
+
+        return Course(
+            title = title,
+            dayOfWeek = day,
+            startTime = start,
+            endTime = end,
+            semesterStart = LocalDate.now().with(java.time.temporal.TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY)),
+            totalWeeks = 16,
+            weekFilter = weekFilter,
+            includedWeeks = selectIncludedWeeks(),
+            color = color,
+            reminderMinutesBefore = 10
+        )
+    }
+
+    private fun selectIncludedWeeks(): Set<Int> {
+        val selected = mutableSetOf<Int>()
+        val dialog = AlertDialog.Builder(requireContext())
+        val weeks = (1..16).map { "Week $it" }.toTypedArray()
+        val checked = BooleanArray(16)
+
+        dialog.setTitle("Select Included Weeks")
+        dialog.setMultiChoiceItems(weeks, checked) { _, which, isChecked ->
+            if (isChecked) selected.add(which + 1) else selected.remove(which + 1)
+        }
+        dialog.setPositiveButton("OK", null)
+        dialog.show()
+
+        return selected
+    }
+
+    private fun saveAllCourses() {
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+
+        lifecycleScope.launch {
+            for ((_, course) in courseData) {
+                dao.upsert(course)
+            }
+            Toast.makeText(requireContext(), "Courses saved", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun loadExistingCourses() {
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+
+        lifecycleScope.launch {
+            val courses = dao.getAll()
+            for (course in courses) {
+                val col = course.dayOfWeek.value
+                val row = course.startTime.hour + 1
+                val block = createCourseBlock(course.title, course.color)
+                val index = row * 8 + col
+                grid.addView(block, index)
+                courseData[block] = course
+                blockViews.add(block)
+            }
+        }
+    }
+
+    @SuppressLint("ClickableViewAccessibility")
+    private fun createCourseBlock(title: String, color: Int): TextView {
+        return TextView(requireContext()).apply {
+            text = title
+            setBackgroundColor(color)
+            setPadding(16, 16, 16, 16)
+            setOnTouchListener { v, event ->
+                if (event.action == MotionEvent.ACTION_DOWN) {
+                    val shadow = View.DragShadowBuilder(v)
+                    v.startDragAndDrop(null, shadow, v, 0)
+                }
+                true
+            }
+            setOnClickListener { showEditDialog(this) }
+            setOnLongClickListener {
+                AlertDialog.Builder(requireContext())
+                    .setTitle("Delete Course?")
+                    .setMessage("Remove this course block?")
+                    .setPositiveButton("Delete") { _, _ ->
+                        (parent as? ViewGroup)?.removeView(this)
+                        courseData.remove(this)
+                    }
+                    .setNegativeButton("Cancel", null)
+                    .show()
+                true
+            }
+        }
+    }
+
+    private fun showEditDialog(block: TextView) {
+        val input = EditText(requireContext()).apply {
+            setText(block.text)
+        }
+
+        AlertDialog.Builder(requireContext())
+            .setTitle("Edit Course Title")
+            .setView(input)
+            .setPositiveButton("Save") { _, _ ->
+                block.text = input.text.toString()
+                courseData[block]?.let {
+                    courseData[block] = it.copy(title = input.text.toString())
+                }
+            }
+            .setNegativeButton("Cancel", null)
+            .show()
+    }
+
+    private fun undoLastBlock() {
+        if (blockViews.isNotEmpty()) {
+            val last = blockViews.removeLast()
+            (last.parent as? ViewGroup)?.removeView(last)
+            courseData.remove(last)
+            updateCourseListPreview()
+        }
+    }
+
+    private fun resetAllBlocks() {
+        for (block in blockViews) {
+            (block.parent as? ViewGroup)?.removeView(block)
+        }
+        blockViews.clear()
+        courseData.clear()
+        updateCourseListPreview()
+    }
+
+    @SuppressLint("SetTextI18n")
+    private fun updateCourseListPreview() {
+        val list = courseData.values.joinToString("\n") {
+            "${it.title} Â· ${it.dayOfWeek} ${it.startTime}-${it.endTime}"
+        }
+        courseListText.text = "Courses:\n$list"
+    }
+}
+
+
+-----END src\main\java\zhang\myapplication\ui\screens\EditCourseScreen.kt-----
+
+File: src\main\java\zhang\myapplication\ui\screens\WeekScreen.kt
+Lines: 43
+-----BEGIN src\main\java\zhang\myapplication\ui\screens\WeekScreen.kt-----
+package zhang.myapplication.ui.screens
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.*
+import androidx.fragment.app.Fragment
+import zhang.myapplication.R
+import zhang.myapplication.data.WeekFilter
+
+class WeekScreen : Fragment() {
+    private lateinit var grid: GridLayout
+    private val selectedWeeks = mutableSetOf<Int>()
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+        val view = inflater.inflate(R.layout.fragment_week_screen, container, false)
+        grid = view.findViewById(R.id.gridWeeks)
+
+        for (i in 1..16) {
+            val cb = CheckBox(requireContext()).apply {
+                text = "Week $i"
+                setOnCheckedChangeListener { _, isChecked ->
+                    if (isChecked) selectedWeeks.add(i) else selectedWeeks.remove(i)
+                }
+            }
+            grid.addView(cb)
+        }
+
+        val rg = view.findViewById<RadioGroup>(R.id.rgWeekFilter)
+        rg.setOnCheckedChangeListener { _, checkedId ->
+            val filter = when (checkedId) {
+                R.id.rbAll -> WeekFilter.ALL
+                R.id.rbOdd -> WeekFilter.ODD
+                R.id.rbEven -> WeekFilter.EVEN
+                else -> WeekFilter.ALL
+            }
+            // Save or pass filter + selectedWeeks to parent
+        }
+
+        return view
+    }
+}
+
+-----END src\main\java\zhang\myapplication\ui\screens\WeekScreen.kt-----
+
+File: src\main\java\zhang\myapplication\ui\settings\SettingsFragment.kt
+Lines: 278
+-----BEGIN src\main\java\zhang\myapplication\ui\settings\SettingsFragment.kt-----
+package zhang.myapplication.ui.settings
+import android.content.Intent
+import android.net.Uri
+import android.os.Build
+import android.os.Bundle
+import android.provider.Settings
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import org.json.JSONArray
+import org.json.JSONObject
+import zhang.myapplication.ScheduleApp
+import zhang.myapplication.databinding.FragmentSettingsBinding
+import zhang.myapplication.domain.ReminderScheduler
+import zhang.myapplication.data.Course
+import zhang.myapplication.data.WeekFilter
+import java.time.DayOfWeek
+import java.time.LocalDate
+import java.time.LocalTime
+import java.time.format.DateTimeParseException
+
+class SettingsFragment : Fragment() {
+    private var _binding: FragmentSettingsBinding? = null
+    private val binding get() = _binding!!
+
+    // --- Storage Access Framework launchers ---
+    private val exportLauncher = registerForActivityResult(
+        ActivityResultContracts.CreateDocument("application/json")
+    ) { uri ->
+        if (uri != null) exportCoursesTo(uri) else
+            Toast.makeText(requireContext(), "Export canceled", Toast.LENGTH_SHORT).show()
+    }
+
+    private val importLauncher = registerForActivityResult(
+        ActivityResultContracts.OpenDocument()
+    ) { uri ->
+        if (uri != null) importCoursesFrom(uri) else
+            Toast.makeText(requireContext(), "Import canceled", Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentSettingsBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        val app = requireActivity().application as ScheduleApp
+        val dataStore = app.dataStoreManager
+
+        // --- Load current settings from DataStore and set UI switches ---
+        viewLifecycleOwner.lifecycleScope.launch {
+            binding.switchDarkTheme.isChecked =
+                dataStore.darkThemeEnabled.first()
+            binding.switchNotifSound.isChecked =
+                dataStore.notificationSoundEnabled.first()
+            binding.switchNotifVibrate.isChecked =
+                dataStore.notificationVibrateEnabled.first()
+            binding.switchFullscreen.isChecked =
+                dataStore.fullscreenAlertEnabled.first()
+        }
+
+        // --- Switch listeners (persist to DataStore immediately) ---
+        binding.switchDarkTheme.setOnCheckedChangeListener { _, isChecked ->
+            viewLifecycleOwner.lifecycleScope.launch {
+                dataStore.setDarkThemeEnabled(isChecked)
+            }
+        }
+        binding.switchNotifSound.setOnCheckedChangeListener { _, isChecked ->
+            viewLifecycleOwner.lifecycleScope.launch {
+                dataStore.setNotificationSoundEnabled(isChecked)
+                Toast.makeText(requireContext(), "Sound ${if (isChecked) "On" else "Off"}", Toast.LENGTH_SHORT).show()
+            }
+        }
+        binding.switchNotifVibrate.setOnCheckedChangeListener { _, isChecked ->
+            viewLifecycleOwner.lifecycleScope.launch {
+                dataStore.setNotificationVibrateEnabled(isChecked)
+                Toast.makeText(requireContext(), "Vibration ${if (isChecked) "On" else "Off"}", Toast.LENGTH_SHORT).show()
+            }
+        }
+        binding.switchFullscreen.setOnCheckedChangeListener { _, isChecked ->
+            viewLifecycleOwner.lifecycleScope.launch {
+                dataStore.setFullscreenAlertEnabled(isChecked)
+                if (isChecked && Build.VERSION.SDK_INT >= 34) {
+                    // Offer quick jump to the OS permission page for Full-screen intents
+                    startActivity(
+                        Intent(Settings.ACTION_MANAGE_APP_USE_FULL_SCREEN_INTENT)
+                            .putExtra(Settings.EXTRA_APP_PACKAGE, requireContext().packageName)
+                    )
+                }
+            }
+        }
+
+        // --- Export / Import buttons ---
+        binding.btnExportCourses.setOnClickListener {
+            exportLauncher.launch("courses.uni.json")
+        }
+        binding.btnImportCourses.setOnClickListener {
+            importLauncher.launch(arrayOf("application/json"))
+        }
+
+        // --- Optional: Exact alarms settings deep-link ---
+        binding.btnManageExactAlarms.setOnClickListener {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                startActivity(
+                    Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
+                        .setData(Uri.parse("package:${requireContext().packageName}"))
+                )
+            } else {
+                Toast.makeText(requireContext(), "Not required on this Android version", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+    // region Export / Import using SAF (JSON)
+    private fun exportCoursesTo(uri: Uri) {
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+        viewLifecycleOwner.lifecycleScope.launch {
+            val courses = dao.getAll()
+            val json = JSONArray()
+            courses.forEach { c ->
+                val obj = JSONObject().apply {
+                    put("title", c.title)
+                    put("location", c.location)
+                    put("color", c.color)
+                    put("dayOfWeek", c.dayOfWeek.value) // 1..7
+                    put("startTime", c.startTime.toString()) // HH:MM:SS
+                    put("endTime", c.endTime.toString()) // HH:MM:SS
+                    put("semesterStart", c.semesterStart.toString()) // yyyy-MM-dd
+                    put("totalWeeks", c.totalWeeks)
+                    put("weekFilter", c.weekFilter.name)
+                    put("includedWeeks", JSONArray(c.includedWeeks.toList()))
+                    put("reminderMinutesBefore", c.reminderMinutesBefore)
+                }
+                json.put(obj)
+            }
+            try {
+                requireContext().contentResolver.openOutputStream(uri)?.use { out ->
+                    out.write(json.toString(2).toByteArray())
+                    out.flush()
+                }
+                Toast.makeText(requireContext(), "Exported to: $uri", Toast.LENGTH_LONG).show()
+            } catch (e: Exception) {
+                Toast.makeText(requireContext(), "Export failed: ${e.message}", Toast.LENGTH_LONG).show()
+            }
+        }
+    }
+
+    private fun importCoursesFrom(uri: Uri) {
+        // Persist read access if the user picks from a cloud provider
+        try {
+            requireContext().contentResolver.takePersistableUriPermission(
+                uri, Intent.FLAG_GRANT_READ_URI_PERMISSION
+            )
+        } catch (_: SecurityException) { /* best effort */ }
+
+        val app = requireActivity().application as ScheduleApp
+        val dao = app.db.courseDao()
+        val scheduler = ReminderScheduler(requireContext(), app.alarmManager)
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            // --- SAFELY READ TEXT & CLOSE STREAMS ---
+            val text = try {
+                val cr = requireContext().contentResolver
+                cr.openInputStream(uri)?.use { input ->
+                    input.bufferedReader().use { reader ->
+                        reader.readText()
+                    }
+                }
+            } catch (e: Exception) {
+                Toast.makeText(requireContext(), "Import failed: ${e.message}", Toast.LENGTH_LONG).show()
+                null
+            } ?: return@launch
+
+            // Minimal validation (ensure .uni.json or a JSON array)
+            if (!uri.toString().endsWith(".uni.json") && !text.trim().startsWith("[")) {
+                Toast.makeText(requireContext(), "Invalid file format", Toast.LENGTH_LONG).show()
+                return@launch
+            }
+
+            // --- parsing & replace logic ---
+            val list = mutableListOf<Course>()
+            try {
+                val arr = org.json.JSONArray(text)
+                for (i in 0 until arr.length()) {
+                    val o = arr.getJSONObject(i)
+                    val title = o.optString("title")
+                    if (title.isBlank()) continue
+                    val location: String? =
+                        if (!o.has("location") || o.isNull("location")) null
+                        else o.optString("location").takeIf { it.isNotBlank() }
+                    val color = o.optInt("color")
+                    val day = DayOfWeek.of(o.optInt("dayOfWeek", 1).coerceIn(1, 7))
+                    val start = parseLocalTime(o.optString("startTime"))
+                    val end = parseLocalTime(o.optString("endTime"))
+                    val startDate = parseLocalDate(o.optString("semesterStart"))
+                    val totalWeeks = o.optInt("totalWeeks", 16)
+                    val weekFilter = runCatching { WeekFilter.valueOf(o.optString("weekFilter", "ALL")) }
+                        .getOrDefault(WeekFilter.ALL)
+                    val includedWeeks = o.optJSONArray("includedWeeks")?.let { ja ->
+                        (0 until ja.length()).mapNotNull { idx -> ja.optInt(idx).takeIf { it > 0 } }.toSet()
+                    } ?: emptySet()
+                    val reminderMin = o.optInt("reminderMinutesBefore", 10)
+
+                    if (start != null && end != null && startDate != null && end.isAfter(start)) {
+                        list.add(
+                            Course(
+                                title = title,
+                                location = location,
+                                color = color,
+                                dayOfWeek = day,
+                                startTime = start,
+                                endTime = end,
+                                semesterStart = startDate,
+                                totalWeeks = totalWeeks,
+                                weekFilter = weekFilter,
+                                includedWeeks = includedWeeks,
+                                reminderMinutesBefore = reminderMin
+                            )
+                        )
+                    }
+                }
+            } catch (e: Exception) {
+                Toast.makeText(requireContext(), "Import parse error: ${e.message}", Toast.LENGTH_LONG).show()
+                return@launch
+            }
+
+            if (list.isEmpty()) {
+                Toast.makeText(requireContext(), "No courses found in file", Toast.LENGTH_SHORT).show()
+                return@launch
+            }
+
+            app.db.runInTransaction {
+                runBlockingUnit {
+                    dao.deleteAll()
+                    list.forEach { c ->
+                        val id = dao.upsert(c)
+                        val saved = c.copy(id = id)
+                        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S
+                            || app.alarmManager.canScheduleExactAlarms()
+                        ) {
+                            scheduler.scheduleNext(saved)
+                        }
+                    }
+                }
+            }
+            Toast.makeText(requireContext(), "Imported ${list.size} courses", Toast.LENGTH_LONG).show()
+        }
+    }
+
+    private fun parseLocalTime(s: String?): LocalTime? = try {
+        if (s.isNullOrBlank()) null else LocalTime.parse(s)
+    } catch (_: DateTimeParseException) { null }
+
+    private fun parseLocalDate(s: String?): LocalDate? = try {
+        if (s.isNullOrBlank()) null else LocalDate.parse(s)
+    } catch (_: DateTimeParseException) { null }
+
+    private inline fun runBlockingUnit(crossinline block: suspend () -> Unit) {
+        kotlinx.coroutines.runBlocking { block() }
+    }
+    // endregion
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}
+
+-----END src\main\java\zhang\myapplication\ui\settings\SettingsFragment.kt-----
+
+File: src\main\java\zhang\myapplication\util\DataStoreManager.kt
+Lines: 68
+-----BEGIN src\main\java\zhang\myapplication\util\DataStoreManager.kt-----
+package zhang.myapplication.util
+
+import android.content.Context
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
+
+private val Context.dataStore by preferencesDataStore(name = "settings")
+
+class DataStoreManager(private val context: Context) {
+
+    // Keys
+    private object Keys {
+        val DARK = booleanPreferencesKey("dark_theme")
+        val SOUND = booleanPreferencesKey("notif_sound")
+        val VIBRATE = booleanPreferencesKey("notif_vibrate")
+        val FULLSCREEN = booleanPreferencesKey("notif_fullscreen")
+        val AUTO_SYNC = booleanPreferencesKey("auto_sync")
+        val LAST_SYNC = stringPreferencesKey("last_sync_time")
+    }
+
+    // Exposed flows (with sane defaults)
+    val darkThemeEnabled: Flow<Boolean> =
+        context.dataStore.data.map { it[Keys.DARK] ?: false }
+
+    val notificationSoundEnabled: Flow<Boolean> =
+        context.dataStore.data.map { it[Keys.SOUND] ?: true }
+
+    val notificationVibrateEnabled: Flow<Boolean> =
+        context.dataStore.data.map { it[Keys.VIBRATE] ?: true }
+
+    val fullscreenAlertEnabled: Flow<Boolean> =
+        context.dataStore.data.map { it[Keys.FULLSCREEN] ?: false }
+
+    val autoSyncEnabled: Flow<Boolean> =
+        context.dataStore.data.map { it[Keys.AUTO_SYNC] ?: false }
+
+    val lastSyncTime: Flow<String> =
+        context.dataStore.data.map { it[Keys.LAST_SYNC] ?: "â€”" }
+
+    // Setters
+    suspend fun setDarkThemeEnabled(value: Boolean) {
+        context.dataStore.edit { it[Keys.DARK] = value }
+    }
+
+    suspend fun setNotificationSoundEnabled(value: Boolean) {
+        context.dataStore.edit { it[Keys.SOUND] = value }
+    }
+
+    suspend fun setNotificationVibrateEnabled(value: Boolean) {
+        context.dataStore.edit { it[Keys.VIBRATE] = value }
+    }
+
+    suspend fun setFullscreenAlertEnabled(value: Boolean) {
+        context.dataStore.edit { it[Keys.FULLSCREEN] = value }
+    }
+
+    suspend fun setAutoSync(value: Boolean) {
+        context.dataStore.edit { it[Keys.AUTO_SYNC] = value }
+    }
+
+    suspend fun setLastSyncTime(value: String) {
+        context.dataStore.edit { it[Keys.LAST_SYNC] = value }
+    }
+}
+-----END src\main\java\zhang\myapplication\util\DataStoreManager.kt-----
+
+File: src\main\java\zhang\myapplication\util\Permissions.kt
+Lines: 20
+-----BEGIN src\main\java\zhang\myapplication\util\Permissions.kt-----
+package zhang.myapplication.util
+
+import android.app.AlertDialog
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.provider.Settings
+
+fun showPermissionDisclaimer(context: Context, permissionName: String, message: String) {
+    AlertDialog.Builder(context)
+        .setTitle("$permissionName Permission Required")
+        .setMessage(message)
+        .setPositiveButton("Go to Settings") { _, _ ->
+            val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
+                data = Uri.parse("package:${context.packageName}")
+            }
+            context.startActivity(intent)
+        }
+        .setNegativeButton("Cancel", null)
+        .show()
+}
+-----END src\main\java\zhang\myapplication\util\Permissions.kt-----
+
+File: src\main\res\drawable\ic_add_24.xml
+Lines: 9
+-----BEGIN src\main\res\drawable\ic_add_24.xml-----
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M10 4 L10 10 L4 10 L4 14 L10 14 L10 20 L14 20 L14 14 L20 14 L20 10 L14 10 L14 4 Z" />
+</vector>
+
+-----END src\main\res\drawable\ic_add_24.xml-----
+
+File: src\main\res\drawable\ic_dashboard_black_24dp.xml
+Lines: 9
+-----BEGIN src\main\res\drawable\ic_dashboard_black_24dp.xml-----
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M3,13h8L11,3L3,3v10zM3,21h8v-6L3,15v6zM13,21h8L21,11h-8v10zM13,3v6h8L21,3h-8z" />
+</vector>
+
+-----END src\main\res\drawable\ic_dashboard_black_24dp.xml-----
+
+File: src\main\res\drawable\ic_home_black_24dp.xml
+Lines: 9
+-----BEGIN src\main\res\drawable\ic_home_black_24dp.xml-----
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M10,20v-6h4v6h5v-8h3L12,3 2,12h3v8z" />
+</vector>
+
+-----END src\main\res\drawable\ic_home_black_24dp.xml-----
+
+File: src\main\res\drawable\ic_launcher_background.xml
+Lines: 170
+-----BEGIN src\main\res\drawable\ic_launcher_background.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M0,0h108v108h-108z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M9,0L9,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,0L19,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M29,0L29,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M39,0L39,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M49,0L49,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59,0L59,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M69,0L69,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M79,0L79,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M89,0L89,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M99,0L99,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,9L108,9"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,19L108,19"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,29L108,29"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,39L108,39"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,49L108,49"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,59L108,59"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,69L108,69"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,79L108,79"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,89L108,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,99L108,99"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,29L89,29"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,39L89,39"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,49L89,49"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,59L89,59"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,69L89,69"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,79L89,79"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M29,19L29,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M39,19L39,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M49,19L49,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59,19L59,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M69,19L69,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M79,19L79,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+</vector>
+
+-----END src\main\res\drawable\ic_launcher_background.xml-----
+
+File: src\main\res\drawable\ic_launcher_foreground.xml
+Lines: 29
+-----BEGIN src\main\res\drawable\ic_launcher_foreground.xml-----
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="85.84757"
+                android:endY="92.4963"
+                android:startX="42.9492"
+                android:startY="49.59793"
+                android:type="linear">
+                <item
+                    android:color="#44000000"
+                    android:offset="0.0" />
+                <item
+                    android:color="#00000000"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+</vector>
+-----END src\main\res\drawable\ic_launcher_foreground.xml-----
+
+File: src\main\res\drawable\ic_notifications_black_24dp.xml
+Lines: 9
+-----BEGIN src\main\res\drawable\ic_notifications_black_24dp.xml-----
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12,22c1.1,0 2,-0.9 2,-2h-4c0,1.1 0.89,2 2,2zM18,16v-5c0,-3.07 -1.64,-5.64 -4.5,-6.32L13.5,4c0,-0.83 -0.67,-1.5 -1.5,-1.5s-1.5,0.67 -1.5,1.5v0.68C7.63,5.36 6,7.92 6,11v5l-2,2v1h16v-1l-2,-2z" />
+</vector>
+
+-----END src\main\res\drawable\ic_notifications_black_24dp.xml-----
+
+File: src\main\res\layout\activity_main.xml
+Lines: 66
+-----BEGIN src\main\res\layout\activity_main.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <!-- Main content -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Pinned app bar (NO scroll flags = never hides) -->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:liftOnScroll="true">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.Material3.Light"
+                app:title="@string/app_name" />
+            <!-- NOTE: no app:layout_scrollFlags here on purpose -->
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!-- Your NavHost; behavior keeps content laid out BELOW the toolbar -->
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/nav_host_fragment_activity_main"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/mobile_navigation"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:ignore="FragmentTagUsage" />
+
+        <!-- Bottom navigation anchored to the bottom -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_nav_menu"
+            app:layout_anchor="@id/nav_host_fragment_activity_main"
+            app:layout_anchorGravity="bottom" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <!-- Side navigation for drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_side"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:overScrollMode="always"
+        app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/nav_header" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
+-----END src\main\res\layout\activity_main.xml-----
+
+File: src\main\res\layout\dialog_add_course.xml
+Lines: 71
+-----BEGIN src\main\res\layout\dialog_add_course.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingsScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Widget.App.NestedScroll">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:hint="@string/title_e_g_linear_algebra"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Title" />
+
+        <EditText
+            android:id="@+id/etLocation"
+            android:hint="@string/location_optional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:autofillHints="location"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/spDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/btnStartTime"
+                android:text="@string/start_time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnEndTime"
+                android:text="@string/end_time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etReminder"
+            android:hint="@string/reminder_minutes_before_e_g_10"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:autofillHints="10" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+-----END src\main\res\layout\dialog_add_course.xml-----
+
+File: src\main\res\layout\fragment_course_list.xml
+Lines: 17
+-----BEGIN src\main\res\layout\fragment_course_list.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCourses"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+-----END src\main\res\layout\fragment_course_list.xml-----
+
+File: src\main\res\layout\fragment_dashboard.xml
+Lines: 46
+-----BEGIN src\main\res\layout\fragment_dashboard.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Sync Button -->
+    <Button
+        android:id="@+id/btnSyncCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sync_to_calendar"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvSyncStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_sync_unknown"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Switch
+        android:id="@+id/switchAutoSync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/tvLastSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_sync_unknown"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Container for CourseListFragment -->
+    <FrameLayout
+        android:id="@+id/dashboard_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
+
+-----END src\main\res\layout\fragment_dashboard.xml-----
+
+File: src\main\res\layout\fragment_edit_course_screen.xml
+Lines: 95
+-----BEGIN src\main\res\layout\fragment_edit_course_screen.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:text="@string/edit_timetable"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/optionsPanel"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <!-- Week Filter -->
+            <TextView android:text="@string/week_filter" android:textSize="16sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Spinner android:id="@+id/spWeekFilter"
+                android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+            <!-- Color Picker -->
+            <TextView android:text="@string/course_color" android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Spinner android:id="@+id/spColor"
+                android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+            <!-- Duration Selector -->
+            <TextView android:text="@string/duration_minutes" android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Spinner android:id="@+id/spDuration"
+                android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+            <!-- Preview Block -->
+            <TextView
+                android:id="@+id/previewBlock"
+                android:text="@string/preview_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:layout_marginTop="8dp"
+                android:background="#80DEEA"
+                android:textColor="#000000" />
+
+            <!-- Timetable Grid -->
+            <GridLayout
+                android:id="@+id/timetableGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="8"
+                android:rowCount="25"
+                android:useDefaultMargins="true"
+                android:alignmentMode="alignMargins"
+                android:padding="4dp" />
+
+
+            <Button
+                android:id="@+id/btnUndo"
+                android:text="@string/undo_last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:text="@string/reset_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvCourseList"
+                android:text="@string/courses"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+-----END src\main\res\layout\fragment_edit_course_screen.xml-----
+
+File: src\main\res\layout\fragment_home.xml
+Lines: 82
+-----BEGIN src\main\res\layout\fragment_home.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Greeting or header -->
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:text="@string/hi_here_s_what_s_next"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnAddCourse"
+        app:layout_goneMarginEnd="8dp"/>
+
+    <!-- Quick Add -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddCourse"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="@string/add_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_add_24"
+        app:iconPadding="8dp"
+        app:iconGravity="textStart"
+        app:layout_constraintTop_toTopOf="@+id/tvGreeting"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Next upcoming class -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardNext"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvGreeting"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvNextTitle"
+                android:text="@string/no_upcoming_classes"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvNextMeta"
+                android:text="@string/hyphen"
+                android:textColor="?android:attr/textColorSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/tvNextCountdown"
+                android:text="@string/hyphen"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+-----END src\main\res\layout\fragment_home.xml-----
+
+File: src\main\res\layout\fragment_notifications.xml
+Lines: 13
+-----BEGIN src\main\res\layout\fragment_notifications.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCourses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="8dp"/>
+</FrameLayout>
+
+-----END src\main\res\layout\fragment_notifications.xml-----
+
+File: src\main\res\layout\fragment_settings.xml
+Lines: 116
+-----BEGIN src\main\res\layout\fragment_settings.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/settingsScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="always"
+    android:fillViewport="true"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:id="@+id/settingsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="24dp">
+
+        <!-- Appearance -->
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/appearance"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchDarkTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dark_theme"
+            android:textOn=""
+            android:textOff=""
+            app:showText="false"
+            app:useMaterialThemeColors="true" />
+
+        <!-- Notifications -->
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_notifications"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="4dp" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchNotifSound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sound"
+            android:textOn=""
+            android:textOff=""
+            app:showText="false"
+            app:useMaterialThemeColors="true" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchNotifVibrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vibration"
+            android:textOn=""
+            android:textOff=""
+            app:showText="false"
+            app:useMaterialThemeColors="true" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchFullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/full_screen_alert_android_14_requires_special_access"
+            android:textOn=""
+            android:textOff=""
+            app:showText="false"
+            app:useMaterialThemeColors="true" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnManageExactAlarms"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_exact_alarms_permission"
+            android:layout_marginTop="8dp" />
+
+        <!-- Data -->
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/courses_import_export"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="4dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExportCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/export_courses" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnImportCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/import_courses"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+-----END src\main\res\layout\fragment_settings.xml-----
+
+File: src\main\res\layout\fragment_week_screen.xml
+Lines: 25
+-----BEGIN src\main\res\layout\fragment_week_screen.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:text="@string/week_filter" android:textSize="20sp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <RadioGroup android:id="@+id/rgWeekFilter"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbAll" android:text="@string/all_weeks"  android:layout_height="50dp" android:layout_width="150dp"/>
+        <RadioButton android:id="@+id/rbOdd" android:text="@string/odd_weeks"  android:layout_height="50dp" android:layout_width="150dp"/>
+        <RadioButton android:id="@+id/rbEven" android:text="@string/even_weeks"  android:layout_height="50dp" android:layout_width="150dp"/>
+    </RadioGroup>
+
+    <TextView android:text="@string/include_specific_weeks" android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <GridLayout android:id="@+id/gridWeeks"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:columnCount="4" android:layout_marginTop="8dp" />
+</LinearLayout>
+
+-----END src\main\res\layout\fragment_week_screen.xml-----
+
+File: src\main\res\layout\item_course.xml
+Lines: 53
+-----BEGIN src\main\res\layout\item_course.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvDay"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Day (MON/TUE/...) -->
+    <TextView
+        android:id="@+id/tvDay"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Time range -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:textColor="?android:attr/textColorSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"/>
+
+    <!-- Location -->
+    <TextView
+        android:id="@+id/tvLocation"
+        android:textColor="?android:attr/textColorSecondary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@+id/tvTime"
+        app:layout_constraintTop_toTopOf="@+id/tvTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+-----END src\main\res\layout\item_course.xml-----
+
+File: src\main\res\layout\nav_header.xml
+Lines: 21
+-----BEGIN src\main\res\layout\nav_header.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/colorPrimary"
+    android:padding="22dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal">
+
+    <!-- (No spacer needed if NavigationView has fitsSystemWindows=true) -->
+
+    <TextView
+        android:text="@string/course_calendar"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+-----END src\main\res\layout\nav_header.xml-----
+
+File: src\main\res\menu\bottom_nav_menu.xml
+Lines: 18
+-----BEGIN src\main\res\menu\bottom_nav_menu.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />
+
+</menu>
+-----END src\main\res\menu\bottom_nav_menu.xml-----
+
+File: src\main\res\menu\drawer_menu.xml
+Lines: 11
+-----BEGIN src\main\res\menu\drawer_menu.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Match these IDs to your NavGraph destination IDs if you want auto-navigation -->
+    <item
+        android:id="@+id/nav_settings"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:title="@string/about" />
+</menu>
+-----END src\main\res\menu\drawer_menu.xml-----
+
+File: src\main\res\menu\main_actions.xml
+Lines: 9
+-----BEGIN src\main\res\menu\main_actions.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_course"
+        android:title="@string/add_course"
+        android:icon="@drawable/ic_add_24"
+        app:showAsAction="ifRoom|withText" />
+</menu>
+-----END src\main\res\menu\main_actions.xml-----
+
+File: src\main\res\menu\side_nav_menu.xml
+Lines: 20
+-----BEGIN src\main\res\menu\side_nav_menu.xml-----
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_home" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/title_dashboard" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/title_notifications" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/settings" />
+    </group>
+</menu>
+
+-----END src\main\res\menu\side_nav_menu.xml-----
+
+File: src\main\res\mipmap-anydpi-v26\ic_launcher.xml
+Lines: 5
+-----BEGIN src\main\res\mipmap-anydpi-v26\ic_launcher.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
+-----END src\main\res\mipmap-anydpi-v26\ic_launcher.xml-----
+
+File: src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Lines: 5
+-----BEGIN src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
+-----END src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml-----
+
+File: src\main\res\navigation\mobile_navigation.xml
+Lines: 38
+-----BEGIN src\main\res\navigation\mobile_navigation.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="zhang.myapplication.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/item_course" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="zhang.myapplication.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="zhang.myapplication.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <!-- Settings fragment -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="zhang.myapplication.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <!-- Global action -->
+    <action
+        android:id="@+id/action_global_settingsFragment"
+        app:destination="@id/settingsFragment"
+        app:popUpTo="@id/navigation_home"
+        app:popUpToInclusive="false" />
+</navigation>
+-----END src\main\res\navigation\mobile_navigation.xml-----
+
+File: src\main\res\values\arrays.xml
+Lines: 12
+-----BEGIN src\main\res\values\arrays.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>
+
+-----END src\main\res\values\arrays.xml-----
+
+File: src\main\res\values\colors.xml
+Lines: 9
+-----BEGIN src\main\res\values\colors.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
+-----END src\main\res\values\colors.xml-----
+
+File: src\main\res\values\dimens.xml
+Lines: 4
+-----BEGIN src\main\res\values\dimens.xml-----
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
+-----END src\main\res\values\dimens.xml-----
+
+File: src\main\res\values\strings.xml
+Lines: 50
+-----BEGIN src\main\res\values\strings.xml-----
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="title_e_g_linear_algebra">Title (e.g., Linear Algebra)</string>
+    <string name="location_optional">Location (optional)</string>
+    <string name="reminder_minutes_before_e_g_10">Reminder minutes before (e.g., 10)</string>
+    <string name="add_course">Add course</string>
+    <string name="hi_here_s_what_s_next">Hi ðŸ‘‹ Hereâ€™s whatâ€™s next</string>
+    <string name="no_upcoming_classes">No upcoming classes</string>
+    <string name="hyphen">â€”</string>
+    <string name="settings">Settings</string>
+    <string name="auto_sync_to_calendar">Auto-Sync to Calendar</string>
+    <string name="last_sync_never">Last sync: Never</string>
+    <string name="export_courses">Export Courses</string>
+    <string name="backup_amp_export"><![CDATA[Backup & Export]]></string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="notification_vibration">Notification Vibration</string>
+    <string name="notification_sound">Notification Sound</string>
+    <string name="full_screen_alerts">Full-Screen Alerts</string>
+    <string name="course_calendar">Course Calendar</string>
+    <string name="import_courses">Import Courses</string>
+    <string name="ximport">Import</string>
+    <string name="include_specific_weeks">Include Specific Weeks</string>
+    <string name="week_filter">Week Filter</string>
+    <string name="all_weeks">All Weeks</string>
+    <string name="odd_weeks">Odd Weeks</string>
+    <string name="even_weeks">Even Weeks</string>
+    <string name="edit_timetable">Edit Timetable</string>
+    <string name="course_color">Course Color</string>
+    <string name="duration_minutes">Duration (minutes)</string>
+    <string name="preview_block">Preview Block</string>
+    <string name="courses">Courses:</string>
+    <string name="reset_all">Reset All</string>
+    <string name="undo_last">Undo Last</string>
+    <string name="sync_to_calendar">Sync to Calendar</string>
+    <string name="auto_sync_unknown">Auto-sync: Unknown</string>
+    <string name="last_sync_unknown">Last sync: Unknown</string>
+    <string name="appearance">Appearance</string>
+    <string name="sound">Sound</string>
+    <string name="vibration">Vibration</string>
+    <string name="full_screen_alert_android_14_requires_special_access">Fullâ€‘screen alert (Android 14+: requires special access)</string>
+    <string name="manage_exact_alarms_permission">Manage Exact Alarms Permission</string>
+    <string name="courses_import_export">Courses (Import / Export)</string>
+    <string name="export_courses_uni_json">Export courses (.uni.json)</string>
+    <string name="import_courses_uni_json">Import courses (.uni.json)</string>
+    <string name="about">About</string>
+</resources>
+-----END src\main\res\values\strings.xml-----
+
+File: src\main\res\values\style.xml
+Lines: 14
+-----BEGIN src\main\res\values\style.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.App.NestedScroll" parent="">
+        <item name="android:overScrollMode">always</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:clipToPadding">false</item>
+        <!-- Optional default padding for content screens -->
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">24dp</item>
+    </style>
+
+</resources>
+-----END src\main\res\values\style.xml-----
+
+File: src\main\res\values\themes.xml
+Lines: 22
+-----BEGIN src\main\res\values\themes.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Keep this same style name; your manifest points to @style/Theme.Calendar -->
+    <style name="Theme.Calendar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- ðŸ‘‡ Add these four lines so the window decor does NOT create a built-in ActionBar -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
+-----END src\main\res\values\themes.xml-----
+
+File: src\main\res\values-night\themes.xml
+Lines: 20
+-----BEGIN src\main\res\values-night\themes.xml-----
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calendar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
+-----END src\main\res\values-night\themes.xml-----
+
+File: src\main\res\xml\backup_rules.xml
+Lines: 12
+-----BEGIN src\main\res\xml\backup_rules.xml-----
+<?xml version="1.0" encoding="utf-8"?><!--
+   Sample backup rules file; uncomment and customize as necessary.
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+   Note: This file is ignored for devices older that API 31
+   See https://developer.android.com/about/versions/12/backup-restore
+-->
+<full-backup-content>
+    <!--
+   <include domain="sharedpref" path="."/>
+   <exclude domain="sharedpref" path="device.xml"/>
+-->
+</full-backup-content>
+-----END src\main\res\xml\backup_rules.xml-----
+
+File: src\main\res\xml\data_extraction_rules.xml
+Lines: 18
+-----BEGIN src\main\res\xml\data_extraction_rules.xml-----
+<?xml version="1.0" encoding="utf-8"?><!--
+   Sample data extraction rules file; uncomment and customize as necessary.
+   See https://developer.android.com/about/versions/12/backup-restore#xml-changes
+   for details.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- TODO: Use <include> and <exclude> to control what is backed up.
+        <include .../>
+        <exclude .../>
+        -->
+    </cloud-backup>
+    <!--
+    <device-transfer>
+        <include .../>
+        <exclude .../>
+    </device-transfer>
+    -->
+</data-extraction-rules>
+-----END src\main\res\xml\data_extraction_rules.xml-----
+
+File: src\test\java\zhang\myapplication\ExampleUnitTest.kt
+Lines: 16
+-----BEGIN src\test\java\zhang\myapplication\ExampleUnitTest.kt-----
+package zhang.myapplication
+
+import org.junit.Test
+
+import org.junit.Assert.*
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
+class ExampleUnitTest {
+    @Test
+    fun addition_isCorrect() {
+        assertEquals(4, 2 + 2)
+    }
+}
+-----END src\test\java\zhang\myapplication\ExampleUnitTest.kt-----
+

@@ -1,166 +1,261 @@
+@file:OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+
 package zhang.myapplication.ui.settings
 
-import android.Manifest
-import android.annotation.SuppressLint
-import android.content.pm.PackageManager
-import android.os.Bundle
-import android.view.*
-import android.widget.CompoundButton
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
-import androidx.datastore.preferences.core.booleanPreferencesKey
-import androidx.datastore.preferences.core.edit
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.lifecycleScope
-import kotlinx.coroutines.flow.first
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.launch
-import zhang.myapplication.ScheduleApp
-import zhang.myapplication.data.Course
-import zhang.myapplication.databinding.FragmentSettingsBinding
-import zhang.myapplication.util.dataStore
-import zhang.myapplication.util.AUTO_SYNC_KEY
-import zhang.myapplication.util.FULLSCREEN_ALERT_KEY
-import zhang.myapplication.util.LAST_SYNC_KEY
-import zhang.myapplication.util.NOTIF_SOUND_KEY
-import zhang.myapplication.util.NOTIF_VIBRATE_KEY
-import java.io.File
-import java.time.DayOfWeek
-import java.time.LocalDate
-import java.time.LocalTime
-import java.time.temporal.TemporalAdjusters
+import android.content.ActivityNotFoundException
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.os.Build
+import android.provider.Settings
+import androidx.compose.foundation.background
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.selection.toggleable
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.ListItem
+import androidx.compose.material3.ListItemDefaults
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Switch
+import androidx.compose.material3.SwitchDefaults
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewmodel.compose.viewModel
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.update
 
-class SettingsFragment : Fragment() {
-    private var _binding: FragmentSettingsBinding? = null
-    private val binding get() = _binding!!
+/* --------------------------------------------------------------------------
+ * ViewModel + State (in‑memory; swap to DataStore later if you want persistence)
+ * -------------------------------------------------------------------------- */
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentSettingsBinding.inflate(inflater, container, false)
-        return binding.root
-    }
+data class SettingsUiState(
+    val fullScreenAlerts: Boolean = false,
+    val followSystemTheme: Boolean = true,
+    val darkTheme: Boolean = false,
+    val notificationSound: Boolean = true,
+    val notificationVibration: Boolean = true,
+    val autoSyncToCalendar: Boolean = false
+)
 
-    @SuppressLint("SetTextI18n")
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        val context = requireContext()
+class SettingsViewModel : ViewModel() {
+    private val _ui = MutableStateFlow(SettingsUiState())
+    val ui: StateFlow<SettingsUiState> = _ui
 
-        lifecycleScope.launch {
-            val prefs = context.dataStore.data.first()
+    fun setFullScreenAlerts(v: Boolean)      = _ui.update { it.copy(fullScreenAlerts = v) }
+    fun setFollowSystem(v: Boolean)          = _ui.update { it.copy(followSystemTheme = v) }
+    fun setDarkTheme(v: Boolean)             = _ui.update { it.copy(darkTheme = v) }
+    fun setNotificationSound(v: Boolean)     = _ui.update { it.copy(notificationSound = v) }
+    fun setNotificationVibration(v: Boolean) = _ui.update { it.copy(notificationVibration = v) }
+    fun setAutoSyncToCalendar(v: Boolean)    = _ui.update { it.copy(autoSyncToCalendar = v) }
+}
 
-            binding.switchAutoSync.isChecked = prefs[AUTO_SYNC_KEY] ?: true
-            binding.switchFullscreen.isChecked = prefs[FULLSCREEN_ALERT_KEY] ?: false
-            binding.switchSound.isChecked = prefs[NOTIF_SOUND_KEY] ?: true
-            binding.switchVibrate.isChecked = prefs[NOTIF_VIBRATE_KEY] ?: true
+/* --------------------------------------------------------------------------
+ * Composable Screen
+ * -------------------------------------------------------------------------- */
 
-            val lastSync = prefs[LAST_SYNC_KEY] ?: "Never"
-            binding.tvLastSync.text = "Last sync: $lastSync"
-        }
+@Composable
+fun SettingsScreen(
+    modifier: Modifier = Modifier,
+    vm: SettingsViewModel = viewModel() // requires lifecycle-viewmodel-compose
+) {
+    val ui by vm.ui.collectAsStateWithLifecycle() // requires lifecycle-runtime-compose
+    val context = LocalContext.current
 
-        binding.switchAutoSync.setOnCheckedChangeListener { _, isChecked ->
-            lifecycleScope.launch {
-                context.dataStore.edit { it[AUTO_SYNC_KEY] = isChecked }
-            }
-        }
+    Scaffold(
+        topBar = { TopAppBar(title = { Text("Settings") }) }
+    ) { inner ->
+        Column(modifier = modifier.padding(inner)) {
+            SectionTitle("Appearance")
 
-        binding.switchFullscreen.setOnCheckedChangeListener { _, isChecked ->
-            lifecycleScope.launch {
-                context.dataStore.edit { it[FULLSCREEN_ALERT_KEY] = isChecked }
-            }
-        }
+            PreferenceSwitch(
+                title = "Follow system theme",
+                subtitle = "Use device light/dark mode",
+                checked = ui.followSystemTheme,
+                onCheckedChange = vm::setFollowSystem
+            )
 
-        binding.switchSound.setOnCheckedChangeListener { _, isChecked ->
-            lifecycleScope.launch {
-                context.dataStore.edit { it[NOTIF_SOUND_KEY] = isChecked }
-            }
-        }
+            PreferenceSwitch(
+                title = "Dark theme",
+                subtitle = if (ui.followSystemTheme)
+                    "Turn off 'Follow system' to customize"
+                else
+                    "Use app dark theme",
+                checked = ui.darkTheme,
+                onCheckedChange = vm::setDarkTheme,
+                enabled = !ui.followSystemTheme // gated as requested
+            )
 
-        binding.switchVibrate.setOnCheckedChangeListener { _, isChecked ->
-            lifecycleScope.launch {
-                context.dataStore.edit { it[NOTIF_VIBRATE_KEY] = isChecked }
-            }
-        }
+            HorizontalDivider(thickness = 8.dp, color = MaterialTheme.colorScheme.surfaceVariant)
 
-        binding.switchTheme.setOnCheckedChangeListener { _, isChecked ->
-            lifecycleScope.launch {
-                context.dataStore.edit { it[booleanPreferencesKey("dark_theme_enabled")] = isChecked }
-            }
-            AppCompatDelegate.setDefaultNightMode(
-                if (isChecked) AppCompatDelegate.MODE_NIGHT_YES else AppCompatDelegate.MODE_NIGHT_NO
+            SectionTitle("Notifications")
+
+            PreferenceSwitch(
+                title = "Full-screen alerts",
+                subtitle = if (Build.VERSION.SDK_INT >= 34)
+                    "Manage permission in Special app access"
+                else
+                    "Uses full-screen intent where supported",
+                checked = ui.fullScreenAlerts,
+                onCheckedChange = { enabled ->
+                    vm.setFullScreenAlerts(enabled)
+                    if (enabled) context.openFullScreenIntentSettings()
+                }
+            )
+
+            PreferenceSwitch(
+                title = "Notification sound",
+                subtitle = "Play sound for reminders",
+                checked = ui.notificationSound,
+                onCheckedChange = vm::setNotificationSound
+            )
+
+            PreferenceSwitch(
+                title = "Vibrate",
+                subtitle = "Vibrate on reminder",
+                checked = ui.notificationVibration,
+                onCheckedChange = vm::setNotificationVibration
+            )
+
+            HorizontalDivider(thickness = 8.dp, color = MaterialTheme.colorScheme.surfaceVariant)
+
+            SectionTitle("Calendar")
+
+            PreferenceSwitch(
+                title = "Auto-sync to calendar",
+                subtitle = "Keep timetable synced to system calendar",
+                checked = ui.autoSyncToCalendar,
+                onCheckedChange = vm::setAutoSyncToCalendar
             )
         }
+    }
+}
 
-        binding.btnExport.setOnClickListener {
-            val app = requireActivity().application as ScheduleApp
-            val dao = app.db.courseDao()
+/* --------------------------------------------------------------------------
+ * Row Switch building blocks
+ * - Entire row is toggleable (a11y-friendly)
+ * - Switch mirrors row state (onCheckedChange = null inside)
+ * - Visible On/Off chip for clarity
+ * -------------------------------------------------------------------------- */
 
-            lifecycleScope.launch {
-                val courses = dao.getAll()
-                val exportText = courses.joinToString("\n") { course ->
-                    "${course.title}, ${course.dayOfWeek}, ${course.startTime}–${course.endTime}, ${course.location}"
-                }
+@Composable
+private fun SectionTitle(text: String) {
+    Text(
+        text = text,
+        style = MaterialTheme.typography.titleSmall,
+        color = MaterialTheme.colorScheme.primary,
+        modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+    )
+}
 
-                val fileName = "courses_export_${System.currentTimeMillis()}.txt"
-                val file = File(context.getExternalFilesDir(null), fileName)
-                file.writeText(exportText)
+@Composable
+fun PreferenceSwitch(
+    title: String,
+    checked: Boolean,
+    onCheckedChange: (Boolean) -> Unit,
+    enabled: Boolean = true,
+    subtitle: String? = null
+) {
+    val interaction = remember { MutableInteractionSource() }
 
-                Toast.makeText(context, "Exported to ${file.absolutePath}", Toast.LENGTH_LONG).show()
+    ListItem(
+        headlineContent = { Text(title, maxLines = 1, overflow = TextOverflow.Ellipsis) },
+        supportingContent = { subtitle?.let { Text(it) } },
+        trailingContent = {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                OnOffLabel(checked)
+                Switch(
+                    checked = checked,
+                    onCheckedChange = null, // handled by row.toggleable
+                    enabled = enabled,
+                    colors = SwitchDefaults.colors(
+                        checkedThumbColor = MaterialTheme.colorScheme.onPrimary,
+                        checkedTrackColor = MaterialTheme.colorScheme.primary,
+                        uncheckedTrackColor = MaterialTheme.colorScheme.outlineVariant
+                    )
+                )
             }
-        }
+        },
+        colors = ListItemDefaults.colors(containerColor = MaterialTheme.colorScheme.surface),
+        modifier = Modifier
+            .fillMaxWidth()
+            .heightIn(min = 56.dp)
+            .toggleable(
+                value = checked,
+                enabled = enabled,
+                role = Role.Switch,
+                interactionSource = interaction,
+                onValueChange = onCheckedChange
+            )
+            .padding(horizontal = 8.dp)
+    )
+}
 
-        binding.btnImport.setOnClickListener {
-            val app = requireActivity().application as ScheduleApp
-            val dao = app.db.courseDao()
+@Composable
+private fun OnOffLabel(isOn: Boolean) {
+    val txt = if (isOn) "On" else "Off"
+    val bg  = if (isOn) MaterialTheme.colorScheme.primaryContainer
+    else      MaterialTheme.colorScheme.surfaceVariant
+    val fg  = if (isOn) MaterialTheme.colorScheme.onPrimaryContainer
+    else      MaterialTheme.colorScheme.onSurfaceVariant
+    Text(
+        txt,
+        color = fg,
+        style = MaterialTheme.typography.labelSmall,
+        modifier = Modifier
+            .background(bg, RoundedCornerShape(6.dp))
+            .padding(horizontal = 8.dp, vertical = 2.dp)
+    )
+}
 
-            val dir = context.getExternalFilesDir(null)
-            val files = dir?.listFiles()?.filter { it.name.startsWith("courses_export_") }?.sortedByDescending { it.lastModified() }
+/* --------------------------------------------------------------------------
+ * Intents & helpers
+ * -------------------------------------------------------------------------- */
 
-            if (files.isNullOrEmpty()) {
-                Toast.makeText(context, "No export file found", Toast.LENGTH_SHORT).show()
-                return@setOnClickListener
+/**
+ * Opens the system page to manage Full‑screen Intent permission WITHOUT crashing.
+ * Android 14+ requires ACTION_MANAGE_APP_USE_FULL_SCREEN_INTENT **with a `package:` URI**.
+ * Falls back to the app’s Notification Settings on older/OEM ROMs.
+ */
+fun Context.openFullScreenIntentSettings() {
+    try {
+        if (Build.VERSION.SDK_INT >= 34) {
+            val intent = Intent(Settings.ACTION_MANAGE_APP_USE_FULL_SCREEN_INTENT).apply {
+                data = Uri.parse("package:$packageName") // <— mandatory on many devices
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             }
-
-            val file = files.first()
-            val lines = file.readLines()
-            lifecycleScope.launch {
-                for (line in lines) {
-                    val parts = line.split(", ")
-                    if (parts.size == 4) {
-                        val title = parts[0]
-                        val dayOfWeek = DayOfWeek.valueOf(parts[1].uppercase())
-                        val times = parts[2].split("-")
-                        val location = parts[3]
-                        if (times.size == 2) {
-                            val course = Course(
-                                title = title,
-                                dayOfWeek = dayOfWeek,
-                                startTime = LocalTime.parse(times[0]),
-                                endTime = LocalTime.parse(times[1]),
-                                location = location,
-                                semesterStart = LocalDate.now().with(TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY)),
-                                totalWeeks = 16
-                            )
-                            dao.upsert(course)
-                        }
-                    }
-                }
-                Toast.makeText(context, "Courses imported", Toast.LENGTH_SHORT).show()
-            }
+            startActivity(intent)
+            return
         }
-
-        // Request calendar permission if not granted
-        if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_CALENDAR)
-            != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(requireActivity(), arrayOf(Manifest.permission.WRITE_CALENDAR), 1002)
-        }
+    } catch (_: ActivityNotFoundException) {
+        // fall through
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+    // Fallback
+    val fallback = Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS).apply {
+        putExtra(Settings.EXTRA_APP_PACKAGE, packageName)
+        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
     }
+    startActivity(fallback)
 }

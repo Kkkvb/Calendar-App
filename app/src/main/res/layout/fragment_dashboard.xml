@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp"
     android:layout_width="match_parent"
@@ -10,7 +11,30 @@
         android:id="@+id/btnSyncCalendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sync to Calendar"
+        android:text="@string/sync_to_calendar"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvSyncStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_sync_unknown"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Switch
+        android:id="@+id/switchAutoSync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/tvLastSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_sync_unknown"
+        android:textSize="16sp"
         android:layout_marginBottom="16dp" />
 
     <!-- Container for CourseListFragment -->
